@@ -5,7 +5,7 @@
 <link>https://openai.com/news/research/?limit=100</link>
 <description>Latest research news and updates from OpenAI</description>
 <language>en</language>
-<lastBuildDate>Sun, 13 Sep 2026 11:16:17 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 15:48:15 +0000</lastBuildDate>
 <generator>ForgeRSS</generator>
 <atom:link href="https://openai.com/news/research/?limit=100" rel="self" type="application/rss+xml"/>
 <image>
@@ -19,8 +19,172 @@
   <guid isPermaLink="false">https://openai.com/index/introducing-gpt-live-1-in-the-api/</guid>
   <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT‑Live‑1 brings ChatGPT’s natural, full-duplex conversations to the API, with more control over how voice agents speak and act.
+
+We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, asseen with Codex and ChatGPT Work⁠(opens in a new window), can delegate deeper reasoning and actions to the models and tools...</p><div style="font-size:16px;line-height:1.8;color:#333">GPT‑Live‑1 brings ChatGPT’s natural, full-duplex conversations to the API, with more control over how voice agents speak and act.
+
+We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, asseen with Codex and ChatGPT Work⁠(opens in a new window), can delegate deeper reasoning and actions to the models and tools it is paired with.
+
+For the API release of GPT‑Live‑1, we’ve focused on new capabilities that let developers steer and customize voice experiences around their users, workflows, and goals. A core GPT‑Live‑1 strength, smooth interruption handling, is already delivering business impact: in early evaluations, Speak found that GPT‑Live‑1 gave learners more time to think before the language tutor responded, cutting interruptions by almost 80% versus previous turn-based systems.
+
+Key strengths of GPT‑Live‑1 in the API:
+
+Interruption handling:Improves interruption handling via a single model that reasons over incoming and outgoing audio together, avoiding the latency and brittle handoffs of chained STT–LLM–TTS architectures.
+
+Reasoning & tool calling delegation:GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model.
+
+Tone, pace, and style:Lets developers shape an agent’s tone, pace, and conversational style through the system prompt.
+
+Silent context management & background noise:Better handles background noise and silence without interrupting the conversation or narrating every step out loud.
+
+Long-session reliability:Improves context retention and conversational quality across extended interactions.
+
+Telephony support:Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support.
+
+Talk over it—naturally.Ask for help, then interrupt mid-response to change the question or add detail.
+
+Take it with you.Try a conversation while walking outside or with everyday background noise, and see how it stays with you.
+
+Make it playful.Laugh, hesitate, use short acknowledgments, or briefly talk to someone nearby—then continue the conversation.
+
+This demo is time-limited. By using it, you agree to OpenAI'sTermsand acknowledge ourPrivacy Policy.
+
+Simplify your voice-agent architecture and reduce voice latency
+
+Traditional voice agents stitch together speech-to-text, a reasoning model, and text-to-speech. Each handoff adds latency and creates more opportunities to lose timing, context, or the natural rhythm of a conversation. Developers are often the ones left coordinating those stages,includingwhat happens when someone interrupts, pauses, or changes direction.
+
+GPT‑Live‑1 handles listening and speaking in a single model, simplifying the voice layer. It can respond tointerruptionsand acknowledgements as they happen, whiledelegatingdeeper reasoning to the back end. This lets the conversation continue while work happens in the background.
+
+Developers choose the models, tools, and agent harness behind the conversation. For example, they might pair GPT‑Live‑1 with a model like Luna for high-volume tasks like scheduling or order updates, and use a model like Astra for complex customer issues that require reasoning. That flexibility lets developers match reasoning depth, speed, and cost to each task.
+
+GPT‑Live‑1 natively provides ASR transcripts and response text. It also offers strong alphanumeric understanding and supports keyword biasing. Although GPT‑Live‑1 is not a turn-based model, it natively supports turn detection, so developers can continue to build around explicit turn boundaries.
+
+Measuring the full-duplex advantage
+
+Across our evaluations, GPT‑Live‑1 improves Full Duplex Bench performance by 30 percentage points over GPT‑Realtime‑2.1, with large gains in turn-taking latency and interactive behavior. Paired with GPT‑6 Astra at medium reasoning effort, it also ranks #1 on Tau3, which measures frontier voice-agent intelligence on end-to-end tasks.
+
+Evaluates spoken customer-service tasks in airline, retail, and telecom domains. Pass@1 measures task success; the headline gives each domain equal weight.
+
+* GPT Live backend: Astra (medium).
+
+Evaluates spoken banking support with knowledge retrieval and account tools. Pass@1 is the fraction of 97 banking_knowledge tasks completed successfully.
+
+* GPT Live backend: Astra (medium).
+
+Evaluates pause handling, conversational turn taking, interruptions, and backchannels.
+
+Tests reactions to background speech, speech to another person, listener backchannels, and interruptions.
+
+Measures how quickly the agent starts its reply after the user finishes a turn.
+
+Tests tool use from spoken requests containing natural pauses, hesitations, and self-corrections. Pass@1 scores the tool-call sequence.
+
+* GPT Live backend: Terra (low).
+
+Evaluates the spoken answer to tool-using requests containing pauses, hesitations, and self-corrections. Scores how well the answer matches the reference intent.
+
+* GPT Live backend: Terra (low).
+
+What customers are saying
+
+Developers need voices that fit their product and sound natural to the people using it. With GPT‑Live‑1, we’re expanding from a small set of real-time voices to a broader selection across accents, dialects, and languages giving developers more choice in how their assistants sound.
+
+Listen to the new voices
+
+We’ll continue to expand voice options and language availability over the coming months.
+
+Pricing & Availability
+
+GPT‑Live‑1 is availablein the API today⁠(opens in a new window)at $0.05 per minute for the front-end voice layer. Pair it with the backend model and agent harness that fit your product, then build a voice experience that can scale with the work it needs to do.
+
+Connecting GPT-Live-1 to Codex. This excerpt shows how an application passes conversation context to Codex and returns its answer to GPT-Live-1. Connection setup and delegation handling are omitted.
+
+For custom voice access,contact salesto learn more about eligibility and the request process.
+
+Another way to build voice workflows on top of GPT‑Live‑1 is withOpenAI Presence, which uses the model to power real-time voice interactions. Presence helps enterprises deploy trusted AI agents that can answer questions, resolve issues, use company systems, take approved actions, and escalate to people when needed. Reach out to your OpenAI account director to learn more.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT‑Live‑1 brings ChatGPT’s natural, full-duplex conversations to the API, with more control over how voice agents speak and act.
+
+We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, asseen with Codex and ChatGPT Work⁠(opens in a new window), can delegate deeper reasoning and actions to the models and tools...</p><div style="font-size:16px;line-height:1.8;color:#333">GPT‑Live‑1 brings ChatGPT’s natural, full-duplex conversations to the API, with more control over how voice agents speak and act.
+
+We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, asseen with Codex and ChatGPT Work⁠(opens in a new window), can delegate deeper reasoning and actions to the models and tools it is paired with.
+
+For the API release of GPT‑Live‑1, we’ve focused on new capabilities that let developers steer and customize voice experiences around their users, workflows, and goals. A core GPT‑Live‑1 strength, smooth interruption handling, is already delivering business impact: in early evaluations, Speak found that GPT‑Live‑1 gave learners more time to think before the language tutor responded, cutting interruptions by almost 80% versus previous turn-based systems.
+
+Key strengths of GPT‑Live‑1 in the API:
+
+Interruption handling:Improves interruption handling via a single model that reasons over incoming and outgoing audio together, avoiding the latency and brittle handoffs of chained STT–LLM–TTS architectures.
+
+Reasoning & tool calling delegation:GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model.
+
+Tone, pace, and style:Lets developers shape an agent’s tone, pace, and conversational style through the system prompt.
+
+Silent context management & background noise:Better handles background noise and silence without interrupting the conversation or narrating every step out loud.
+
+Long-session reliability:Improves context retention and conversational quality across extended interactions.
+
+Telephony support:Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support.
+
+Talk over it—naturally.Ask for help, then interrupt mid-response to change the question or add detail.
+
+Take it with you.Try a conversation while walking outside or with everyday background noise, and see how it stays with you.
+
+Make it playful.Laugh, hesitate, use short acknowledgments, or briefly talk to someone nearby—then continue the conversation.
+
+This demo is time-limited. By using it, you agree to OpenAI'sTermsand acknowledge ourPrivacy Policy.
+
+Simplify your voice-agent architecture and reduce voice latency
+
+Traditional voice agents stitch together speech-to-text, a reasoning model, and text-to-speech. Each handoff adds latency and creates more opportunities to lose timing, context, or the natural rhythm of a conversation. Developers are often the ones left coordinating those stages,includingwhat happens when someone interrupts, pauses, or changes direction.
+
+GPT‑Live‑1 handles listening and speaking in a single model, simplifying the voice layer. It can respond tointerruptionsand acknowledgements as they happen, whiledelegatingdeeper reasoning to the back end. This lets the conversation continue while work happens in the background.
+
+Developers choose the models, tools, and agent harness behind the conversation. For example, they might pair GPT‑Live‑1 with a model like Luna for high-volume tasks like scheduling or order updates, and use a model like Astra for complex customer issues that require reasoning. That flexibility lets developers match reasoning depth, speed, and cost to each task.
+
+GPT‑Live‑1 natively provides ASR transcripts and response text. It also offers strong alphanumeric understanding and supports keyword biasing. Although GPT‑Live‑1 is not a turn-based model, it natively supports turn detection, so developers can continue to build around explicit turn boundaries.
+
+Measuring the full-duplex advantage
+
+Across our evaluations, GPT‑Live‑1 improves Full Duplex Bench performance by 30 percentage points over GPT‑Realtime‑2.1, with large gains in turn-taking latency and interactive behavior. Paired with GPT‑6 Astra at medium reasoning effort, it also ranks #1 on Tau3, which measures frontier voice-agent intelligence on end-to-end tasks.
+
+Evaluates spoken customer-service tasks in airline, retail, and telecom domains. Pass@1 measures task success; the headline gives each domain equal weight.
+
+* GPT Live backend: Astra (medium).
+
+Evaluates spoken banking support with knowledge retrieval and account tools. Pass@1 is the fraction of 97 banking_knowledge tasks completed successfully.
+
+* GPT Live backend: Astra (medium).
+
+Evaluates pause handling, conversational turn taking, interruptions, and backchannels.
+
+Tests reactions to background speech, speech to another person, listener backchannels, and interruptions.
+
+Measures how quickly the agent starts its reply after the user finishes a turn.
+
+Tests tool use from spoken requests containing natural pauses, hesitations, and self-corrections. Pass@1 scores the tool-call sequence.
+
+* GPT Live backend: Terra (low).
+
+Evaluates the spoken answer to tool-using requests containing pauses, hesitations, and self-corrections. Scores how well the answer matches the reference intent.
+
+* GPT Live backend: Terra (low).
+
+What customers are saying
+
+Developers need voices that fit their product and sound natural to the people using it. With GPT‑Live‑1, we’re expanding from a small set of real-time voices to a broader selection across accents, dialects, and languages giving developers more choice in how their assistants sound.
+
+Listen to the new voices
+
+We’ll continue to expand voice options and language availability over the coming months.
+
+Pricing & Availability
+
+GPT‑Live‑1 is availablein the API today⁠(opens in a new window)at $0.05 per minute for the front-end voice layer. Pair it with the backend model and agent harness that fit your product, then build a voice experience that can scale with the work it needs to do.
+
+Connecting GPT-Live-1 to Codex. This excerpt shows how an application passes conversation context to Codex and returns its answer to GPT-Live-1. Connection setup and delegation handling are omitted.
+
+For custom voice access,contact salesto learn more about eligibility and the request process.
+
+Another way to build voice workflows on top of GPT‑Live‑1 is withOpenAI Presence, which uses the model to power real-time voice interactions. Presence helps enterprises deploy trusted AI agents that can answer questions, resolve issues, use company systems, take approved actions, and escalate to people when needed. Reach out to your OpenAI account director to learn more.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
   <title>An OpenAI model proposes a solution to the Navier–Stokes problem</title>
@@ -509,80 +673,8 @@ The capabilities of frontier models are rapidly accelerating. Our ability to und
   <guid isPermaLink="false">https://openai.com/index/ten-advances-in-mathematics/</guid>
   <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
-
-今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
-
-我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lea...</p><div style="font-size:16px;line-height:1.8;color:#333">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
-
-今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
-
-我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lean 验证的证明⁠（在新窗口中打开）。我们还将为每种解法发布模型对其思考过程的讲解。
-
-高维球体堆积。球体堆积密度的新上界，低至 Cohn–Elkies 阈值。
-
-二元码和球面码。针对任意给定的最小距离，二元码最大规模的界均得到指数级改进；高维球面码也取得了类似结果。
-
-非 sofic 群。通过构造证明非 sofic 群的存在，推进了群论中一个未解决的核心问题的研究。
-
-Connes 刚性猜想。反驳了一个长期存在的猜想：某些群可由其冯·诺依曼代数唯一确定。
-
-算术电路复杂性。针对使用算术电路和公式计算积和式给出新的下界，其中包括阶为 n4/log n 的算术公式下界。
-
-量子并行重复。为一般双人量子博弈证明了一个具有指数衰减界的并行重复定理，将经典复杂性理论中的一项基础原理推广至量子领域。
-
-最近向量问题。证明最近向量问题具有多项式因子近似困难性；这是格理论中的一个基础问题，与后量子密码学相关。
-
-Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点的凸体所能达到的最大体积。
-
-多色 Ramsey 数。给出多色三角形 Ramsey 数的超指数下界，解决 Erdős 第 183 号问题。
-
-极值数猜想。关于极值图论中紧致性猜想与退化性猜想的研究成果，解决 Erdős 第 146 号和第 180 号问题。
-
-能够为数学研究作出贡献的系统开始涌现，由此产生的问题无法仅靠一家科技公司回答。对于 AI 应在数学领域发挥怎样的作用，人们有许多不同观点。对于担忧其影响的人士，包括《关于 AI 与数学的莱顿宣言》⁠（在新窗口中打开）的签署者，我们深表尊重，也充分理解他们的关切。我们认为，成果署名应如实反映其产生方式：如果一项证明完全由 AI 系统生成，却声称作者是人类，就会歪曲系统作出的贡献，也会误述真正的人类智力劳动的性质。我们协助整理了论文稿件，并在 Lean 中将证明形式化，也会为其正确性负责；但数学论证本身是由我们的系统生成的。我们希望数学界能深入探讨这些成果，将其置于相应的研究背景中，并通过新的研究与发现，让其中的思想焕发生命力。
-
-随着 AI 系统逐渐成为更成熟的研究协作者，确保其得到广泛使用至关重要。这将支持科学家和数学家在这个变革时代探索并塑造各自学科的未来。
-
-1后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。
-
-后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
-
-今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
-
-我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lea...</p><div style="font-size:16px;line-height:1.8;color:#333">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
-
-今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
-
-我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lean 验证的证明⁠（在新窗口中打开）。我们还将为每种解法发布模型对其思考过程的讲解。
-
-高维球体堆积。球体堆积密度的新上界，低至 Cohn–Elkies 阈值。
-
-二元码和球面码。针对任意给定的最小距离，二元码最大规模的界均得到指数级改进；高维球面码也取得了类似结果。
-
-非 sofic 群。通过构造证明非 sofic 群的存在，推进了群论中一个未解决的核心问题的研究。
-
-Connes 刚性猜想。反驳了一个长期存在的猜想：某些群可由其冯·诺依曼代数唯一确定。
-
-算术电路复杂性。针对使用算术电路和公式计算积和式给出新的下界，其中包括阶为 n4/log n 的算术公式下界。
-
-量子并行重复。为一般双人量子博弈证明了一个具有指数衰减界的并行重复定理，将经典复杂性理论中的一项基础原理推广至量子领域。
-
-最近向量问题。证明最近向量问题具有多项式因子近似困难性；这是格理论中的一个基础问题，与后量子密码学相关。
-
-Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点的凸体所能达到的最大体积。
-
-多色 Ramsey 数。给出多色三角形 Ramsey 数的超指数下界，解决 Erdős 第 183 号问题。
-
-极值数猜想。关于极值图论中紧致性猜想与退化性猜想的研究成果，解决 Erdős 第 146 号和第 180 号问题。
-
-能够为数学研究作出贡献的系统开始涌现，由此产生的问题无法仅靠一家科技公司回答。对于 AI 应在数学领域发挥怎样的作用，人们有许多不同观点。对于担忧其影响的人士，包括《关于 AI 与数学的莱顿宣言》⁠（在新窗口中打开）的签署者，我们深表尊重，也充分理解他们的关切。我们认为，成果署名应如实反映其产生方式：如果一项证明完全由 AI 系统生成，却声称作者是人类，就会歪曲系统作出的贡献，也会误述真正的人类智力劳动的性质。我们协助整理了论文稿件，并在 Lean 中将证明形式化，也会为其正确性负责；但数学论证本身是由我们的系统生成的。我们希望数学界能深入探讨这些成果，将其置于相应的研究背景中，并通过新的研究与发现，让其中的思想焕发生命力。
-
-随着 AI 系统逐渐成为更成熟的研究协作者，确保其得到广泛使用至关重要。这将支持科学家和数学家在这个变革时代探索并塑造各自学科的未来。
-
-1后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。
-
-后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Ten advances in mathematics and theoretical computer science</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Ten advances in mathematics and theoretical computer science</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
   <title>How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</title>
@@ -597,7 +689,7 @@ Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点
   <title>GPT-5.4</title>
   <link>https://openai.com/index/introducing-gpt-5-4/</link>
   <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-4/</guid>
-  <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+  <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
@@ -606,7 +698,7 @@ Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点
   <title>GPT-5.5</title>
   <link>https://openai.com/index/introducing-gpt-5-5/</link>
   <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-5/</guid>
-  <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+  <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
@@ -615,7 +707,7 @@ Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点
   <title>GPT-5.6</title>
   <link>https://openai.com/index/gpt-5-6/</link>
   <guid isPermaLink="false">https://openai.com/index/gpt-5-6/</guid>
-  <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+  <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
