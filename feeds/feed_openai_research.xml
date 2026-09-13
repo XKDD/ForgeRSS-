@@ -5,7 +5,7 @@
 <link>https://openai.com/news/research/?limit=100</link>
 <description>Latest research news and updates from OpenAI</description>
 <language>en</language>
-<lastBuildDate>Sun, 13 Sep 2026 03:30:28 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 11:16:17 +0000</lastBuildDate>
 <generator>ForgeRSS</generator>
 <atom:link href="https://openai.com/news/research/?limit=100" rel="self" type="application/rss+xml"/>
 <image>
@@ -14,202 +14,19 @@
   <link>https://openai.com/news/research/?limit=100</link>
 </image>
 <item>
-  <title>GPT-5.6</title>
-  <link>https://openai.com/zh-Hans-CN/index/gpt-5-6/</link>
-  <guid isPermaLink="false">https://openai.com/zh-Hans-CN/index/gpt-5-6/</guid>
-  <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>数学与理论计算机科学的十项进展刊发2026年8月1日</title>
-  <link>https://openai.com/index/ten-advances-in-mathematics/</link>
-  <guid isPermaLink="false">https://openai.com/index/ten-advances-in-mathematics/</guid>
-  <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">数学与理论计算机科学的十项进展刊发2026年8月1日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">数学与理论计算机科学的十项进展刊发2026年8月1日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>Build more natural voice experiences with GPT‑Live‑1 in the API产品2026年9月10日</title>
+  <title>Build more natural voice experiences with GPT‑Live‑1 in the API</title>
   <link>https://openai.com/index/introducing-gpt-live-1-in-the-api/</link>
   <guid isPermaLink="false">https://openai.com/index/introducing-gpt-live-1-in-the-api/</guid>
-  <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+  <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API产品2026年9月10日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API产品2026年9月10日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Build more natural voice experiences with GPT‑Live‑1 in the API</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
-  <title>网络安全关键能力时代的模型开发节奏公司2026年8月18日</title>
-  <link>https://openai.com/index/pacing-model-development-cyber-capabilities/</link>
-  <guid isPermaLink="false">https://openai.com/index/pacing-model-development-cyber-capabilities/</guid>
-  <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
-
-As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
-
-Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
-
-We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
-
-Strengthening safeguards for more capable models
-
-Our approach to developing more capable models rests on three reinforcing safeguards:
-
-Monitoring, which detects and allows us to respond to concerning behavior.
-
-Alignment, which reduces the likelihood of harmful or unauthorized actions.
-
-Security measures, which limit what AI systems can access or affect.
-
-We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
-
-We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
-
-Securing our research environments
-
-As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
-
-Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
-
-Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
-
-Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
-
-Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
-
-Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
-
-While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
-
-Expanding chain-of-thought monitoring
-
-Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
-
-This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
-
-This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
-
-These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
-
-Advancing alignment research
-
-Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
-
-For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
-
-We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
-
-We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
-
-The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
-
-*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
-
-As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
-
-Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
-
-We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
-
-Strengthening safeguards for more capable models
-
-Our approach to developing more capable models rests on three reinforcing safeguards:
-
-Monitoring, which detects and allows us to respond to concerning behavior.
-
-Alignment, which reduces the likelihood of harmful or unauthorized actions.
-
-Security measures, which limit what AI systems can access or affect.
-
-We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
-
-We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
-
-Securing our research environments
-
-As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
-
-Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
-
-Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
-
-Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
-
-Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
-
-Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
-
-While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
-
-Expanding chain-of-thought monitoring
-
-Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
-
-This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
-
-This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
-
-These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
-
-Advancing alignment research
-
-Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
-
-For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
-
-We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
-
-We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
-
-The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
-
-*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>Hugging Face 事件与未来之路安全防护2026年8月26日</title>
-  <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead/</link>
-  <guid isPermaLink="false">https://openai.com/index/hugging-face-incident-and-the-road-ahead/</guid>
-  <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Hugging Face 事件与未来之路安全防护2026年8月26日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Hugging Face 事件与未来之路安全防护2026年8月26日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>GPT-6 Astra：新一代智能研究2026年9月3日</title>
-  <link>https://openai.com/index/gpt-6-astra/</link>
-  <guid isPermaLink="false">https://openai.com/index/gpt-6-astra/</guid>
-  <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6 Astra：新一代智能研究2026年9月3日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6 Astra：新一代智能研究2026年9月3日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>GPT-5.5</title>
-  <link>https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/</link>
-  <guid isPermaLink="false">https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/</guid>
-  <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>开启两项设置后，我们在 ARC-AGI-3 基准测试中的得分增至三倍研究2026年7月29日</title>
-  <link>https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/</link>
-  <guid isPermaLink="false">https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/</guid>
-  <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">开启两项设置后，我们在 ARC-AGI-3 基准测试中的得分增至三倍研究2026年7月29日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">开启两项设置后，我们在 ARC-AGI-3 基准测试中的得分增至三倍研究2026年7月29日</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>An OpenAI model proposes a solution to the Navier–Stokes problem研究2026年9月8日</title>
+  <title>An OpenAI model proposes a solution to the Navier–Stokes problem</title>
   <link>https://openai.com/index/navier-stokes-solution/</link>
   <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution/</guid>
-  <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+  <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.
 
@@ -335,28 +152,10 @@ Read the Euler proof paper⁠(opens in a new window)·Link to Lean formalized pr
 Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/navier-stokes-solution/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
-  <title>GPT-5.4</title>
-  <link>https://openai.com/zh-Hans-CN/index/introducing-gpt-5-4/</link>
-  <guid isPermaLink="false">https://openai.com/zh-Hans-CN/index/introducing-gpt-5-4/</guid>
-  <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>GPT-6</title>
-  <link>https://openai.com/zh-Hans-CN/index/gpt-6-astra/</link>
-  <guid isPermaLink="false">https://openai.com/zh-Hans-CN/index/gpt-6-astra/</guid>
-  <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/zh-Hans-CN/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
-  <title>研究加速：OpenAI 内部视角研究2026年9月6日</title>
+  <title>Research acceleration: The view inside OpenAI</title>
   <link>https://openai.com/index/research-acceleration-view-inside-openai/</link>
   <guid isPermaLink="false">https://openai.com/index/research-acceleration-view-inside-openai/</guid>
-  <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+  <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">For AGI to benefit all of humanity, we believe it must be democratically governed. This can only happen through an informed public debate about the capabilities, risks and safeguards of highly capable AI systems. People everywhere need to understand the likely future trajectory of frontier AI, so they can have a meaningful voice in how it develops.
 
@@ -556,6 +355,270 @@ Across these analyses, unless otherwise noted:
 “Researcher” is a broad term for any member of our research organization, including some who build research infrastructure, manage research projects, or otherwise support the enterprise.
 
 Metrics of coding agent use cover most, but not all, usage given rapid evolution in the tools and systems researchers rely on.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/research-acceleration-view-inside-openai/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>GPT-6 Astra: A new generation of intelligence</title>
+  <link>https://openai.com/index/gpt-6-astra/</link>
+  <guid isPermaLink="false">https://openai.com/index/gpt-6-astra/</guid>
+  <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6 Astra: A new generation of intelligence</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-6 Astra: A new generation of intelligence</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-6-astra/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>The Hugging Face incident and the road aheadSecurity</title>
+  <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead/</link>
+  <guid isPermaLink="false">https://openai.com/index/hugging-face-incident-and-the-road-ahead/</guid>
+  <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">The Hugging Face incident and the road aheadSecurity</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">The Hugging Face incident and the road aheadSecurity</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>Pacing model development in an era of cyber-critical capabilitiesCompany</title>
+  <link>https://openai.com/index/pacing-model-development-cyber-capabilities/</link>
+  <guid isPermaLink="false">https://openai.com/index/pacing-model-development-cyber-capabilities/</guid>
+  <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
+
+As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
+
+Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
+
+We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
+
+Strengthening safeguards for more capable models
+
+Our approach to developing more capable models rests on three reinforcing safeguards:
+
+Monitoring, which detects and allows us to respond to concerning behavior.
+
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
+
+Security measures, which limit what AI systems can access or affect.
+
+We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
+
+We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
+
+Securing our research environments
+
+As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
+
+Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
+
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
+
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
+
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
+
+Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
+
+While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
+
+Expanding chain-of-thought monitoring
+
+Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
+
+This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
+
+This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
+
+These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
+
+Advancing alignment research
+
+Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
+
+For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
+
+We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
+
+We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
+
+The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
+
+*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
+
+As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
+
+Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
+
+We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
+
+Strengthening safeguards for more capable models
+
+Our approach to developing more capable models rests on three reinforcing safeguards:
+
+Monitoring, which detects and allows us to respond to concerning behavior.
+
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
+
+Security measures, which limit what AI systems can access or affect.
+
+We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
+
+We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
+
+Securing our research environments
+
+As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
+
+Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
+
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
+
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
+
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
+
+Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
+
+While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
+
+Expanding chain-of-thought monitoring
+
+Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
+
+This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
+
+This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
+
+These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
+
+Advancing alignment research
+
+Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
+
+For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
+
+We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
+
+We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
+
+The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
+
+*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>Ten advances in mathematics and theoretical computer science</title>
+  <link>https://openai.com/index/ten-advances-in-mathematics/</link>
+  <guid isPermaLink="false">https://openai.com/index/ten-advances-in-mathematics/</guid>
+  <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
+
+今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
+
+我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lea...</p><div style="font-size:16px;line-height:1.8;color:#333">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
+
+今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
+
+我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lean 验证的证明⁠（在新窗口中打开）。我们还将为每种解法发布模型对其思考过程的讲解。
+
+高维球体堆积。球体堆积密度的新上界，低至 Cohn–Elkies 阈值。
+
+二元码和球面码。针对任意给定的最小距离，二元码最大规模的界均得到指数级改进；高维球面码也取得了类似结果。
+
+非 sofic 群。通过构造证明非 sofic 群的存在，推进了群论中一个未解决的核心问题的研究。
+
+Connes 刚性猜想。反驳了一个长期存在的猜想：某些群可由其冯·诺依曼代数唯一确定。
+
+算术电路复杂性。针对使用算术电路和公式计算积和式给出新的下界，其中包括阶为 n4/log n 的算术公式下界。
+
+量子并行重复。为一般双人量子博弈证明了一个具有指数衰减界的并行重复定理，将经典复杂性理论中的一项基础原理推广至量子领域。
+
+最近向量问题。证明最近向量问题具有多项式因子近似困难性；这是格理论中的一个基础问题，与后量子密码学相关。
+
+Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点的凸体所能达到的最大体积。
+
+多色 Ramsey 数。给出多色三角形 Ramsey 数的超指数下界，解决 Erdős 第 183 号问题。
+
+极值数猜想。关于极值图论中紧致性猜想与退化性猜想的研究成果，解决 Erdős 第 146 号和第 180 号问题。
+
+能够为数学研究作出贡献的系统开始涌现，由此产生的问题无法仅靠一家科技公司回答。对于 AI 应在数学领域发挥怎样的作用，人们有许多不同观点。对于担忧其影响的人士，包括《关于 AI 与数学的莱顿宣言》⁠（在新窗口中打开）的签署者，我们深表尊重，也充分理解他们的关切。我们认为，成果署名应如实反映其产生方式：如果一项证明完全由 AI 系统生成，却声称作者是人类，就会歪曲系统作出的贡献，也会误述真正的人类智力劳动的性质。我们协助整理了论文稿件，并在 Lean 中将证明形式化，也会为其正确性负责；但数学论证本身是由我们的系统生成的。我们希望数学界能深入探讨这些成果，将其置于相应的研究背景中，并通过新的研究与发现，让其中的思想焕发生命力。
+
+随着 AI 系统逐渐成为更成熟的研究协作者，确保其得到广泛使用至关重要。这将支持科学家和数学家在这个变革时代探索并塑造各自学科的未来。
+
+1后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。
+
+后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
+
+今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
+
+我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lea...</p><div style="font-size:16px;line-height:1.8;color:#333">我们希望为科学家和数学家提供加速科研发现的工具。正因如此，我们最近宣布推出面向学术研究人员的 ChatGPT⁠计划，为 10 万名科学家和数学家免费提供我们最出色的 ChatGPT 模型。在开发过程中，我们也继续利用尚未解决的研究问题评估模型。
+
+今年 5 月，我们分享了由 AI 生成的对 Erdős 单位距离猜想的否证⁠，这是在评估一个尚未发布的模型时发现的。这项工作已经推动了数学和理论计算机科学领域的进一步发展1。今天，我们将分享十项成果，其中每一项都解决了一个长期悬而未决的问题，或在相关问题上取得了实质性进展。这些问题横跨高维几何、编码理论、算术电路复杂性、群论、算子代数、量子复杂性、格密码学和极值组合学。所有这些问题都受到各自数学研究领域的高度关注，其中数项在整个数学界也具有广泛意义。
+
+我们针对以下问题给出了新的研究成果。这些成果由我们的下一代重要模型 Astra 的内部版本取得。按照 Sol API 的费率，找到这些问题的解法所需的 Token 总量成本约为 2,000 美元。随后，研究人员使用同一模型将这些论证整理成论文稿件。之后，该模型将每项论证形式化为一份可由 Lean 验证的证明⁠（在新窗口中打开）。我们还将为每种解法发布模型对其思考过程的讲解。
+
+高维球体堆积。球体堆积密度的新上界，低至 Cohn–Elkies 阈值。
+
+二元码和球面码。针对任意给定的最小距离，二元码最大规模的界均得到指数级改进；高维球面码也取得了类似结果。
+
+非 sofic 群。通过构造证明非 sofic 群的存在，推进了群论中一个未解决的核心问题的研究。
+
+Connes 刚性猜想。反驳了一个长期存在的猜想：某些群可由其冯·诺依曼代数唯一确定。
+
+算术电路复杂性。针对使用算术电路和公式计算积和式给出新的下界，其中包括阶为 n4/log n 的算术公式下界。
+
+量子并行重复。为一般双人量子博弈证明了一个具有指数衰减界的并行重复定理，将经典复杂性理论中的一项基础原理推广至量子领域。
+
+最近向量问题。证明最近向量问题具有多项式因子近似困难性；这是格理论中的一个基础问题，与后量子密码学相关。
+
+Ehrhart 体积猜想。在每个维度中，确定质心是其唯一内部格点的凸体所能达到的最大体积。
+
+多色 Ramsey 数。给出多色三角形 Ramsey 数的超指数下界，解决 Erdős 第 183 号问题。
+
+极值数猜想。关于极值图论中紧致性猜想与退化性猜想的研究成果，解决 Erdős 第 146 号和第 180 号问题。
+
+能够为数学研究作出贡献的系统开始涌现，由此产生的问题无法仅靠一家科技公司回答。对于 AI 应在数学领域发挥怎样的作用，人们有许多不同观点。对于担忧其影响的人士，包括《关于 AI 与数学的莱顿宣言》⁠（在新窗口中打开）的签署者，我们深表尊重，也充分理解他们的关切。我们认为，成果署名应如实反映其产生方式：如果一项证明完全由 AI 系统生成，却声称作者是人类，就会歪曲系统作出的贡献，也会误述真正的人类智力劳动的性质。我们协助整理了论文稿件，并在 Lean 中将证明形式化，也会为其正确性负责；但数学论证本身是由我们的系统生成的。我们希望数学界能深入探讨这些成果，将其置于相应的研究背景中，并通过新的研究与发现，让其中的思想焕发生命力。
+
+随着 AI 系统逐渐成为更成熟的研究协作者，确保其得到广泛使用至关重要。这将支持科学家和数学家在这个变革时代探索并塑造各自学科的未来。
+
+1后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。
+
+后续研究包括以下论文：Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠（在新窗口中打开）”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠（在新窗口中打开）”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠（在新窗口中打开）”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠（在新窗口中打开）”; Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠（在新窗口中打开）”。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/ten-advances-in-mathematics/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</title>
+  <link>https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/</link>
+  <guid isPermaLink="false">https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/</guid>
+  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>GPT-5.4</title>
+  <link>https://openai.com/index/introducing-gpt-5-4/</link>
+  <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-4/</guid>
+  <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>GPT-5.5</title>
+  <link>https://openai.com/index/introducing-gpt-5-5/</link>
+  <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-5/</guid>
+  <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>GPT-5.6</title>
+  <link>https://openai.com/index/gpt-5-6/</link>
+  <guid isPermaLink="false">https://openai.com/index/gpt-5-6/</guid>
+  <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 </channel>
 </rss>
