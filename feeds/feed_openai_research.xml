@@ -5,7 +5,7 @@
 <link>https://openai.com/news/research/?limit=100</link>
 <description>Latest research news and updates from OpenAI</description>
 <language>en</language>
-<lastBuildDate>Fri, 18 Sep 2026 16:01:22 +0000</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 20:34:51 +0000</lastBuildDate>
 <generator>ForgeRSS</generator>
 <atom:link href="https://openai.com/news/research/?limit=100" rel="self" type="application/rss+xml"/>
 <image>
@@ -216,128 +216,132 @@ Another way to build voice workflows on top of GPT‑Live‑1 is withOpenAI Pres
   <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution/</guid>
   <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们在此分享纳维–斯托克斯 (Navier–Stokes) 存在性与光滑性问题的一种解法，这是千禧年大奖难题之一。这份证明由 OpenAI 内部系统生成，表明在纳维–斯托克斯方程所描述的流体动力学演化中，可能在有限时间内出现奇点。我们同时分享阐述该证明的论文及其 Lean 形式化版本。
 
-TheMillennium Prize Problems⁠(opens in a new window)represent some of the deepest questions at the frontier of mathematics. The question of wheth...</p><div style="font-size:16px;line-height:1.8;color:#333">We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.
+千禧年大奖难题⁠（在新窗口中打开）代表了数学前沿最深奥的一些问题。原本光滑的三维流体运动是否会在演化过程中失去光滑性，这一问题已有约 90 年未获解决。
 
-TheMillennium Prize Problems⁠(opens in a new window)represent some of the deepest questions at the frontier of mathematics. The question of whether smooth three-dimensional fluid motion can break down has remained unresolved for roughly 90 years.
+我们工作的一项重要目标，是帮助科学家推动造福全人类的研究与技术发展。为解决纳维–斯托克斯问题，我们使用了一个能力显著超过 GPT‑6 Astra 的内部模型。我们认为，有必要让全世界了解 AI 的进步速度，以及对即将推出的模型可以抱有怎样的预期。
 
-A major goal of our work is to empower scientists to advance research and technology that benefits all of humanity. To solve the Navier–Stokes problem, we used an internal model that is significantly more capable than GPT‑6 Astra. We believe it is important to inform the world about the pace of AI progress and what to expect from upcoming models.
+纳维–斯托克斯方程运用牛顿第二运动定律（“F=ma”）描述流体如何运动。重要的是，它们将流体视为连续介质，而不是追踪单个分子。这些方程用于飞机设计、天气预报和血流研究。
 
-The Navier–Stokes equations use Newton’s second law of motion (“F=ma”) to describe how fluids move. Importantly, they treat a fluid as a continuous medium rather than tracking individual molecules. These equations are used for aircraft design, weather forecasting, and the study of blood flow.
+这些动力学方程有一个悬而未决的基础问题：对流体所作的连续介质近似是否会失效。具体而言，即使运动初始时是光滑的，描述密度恒定的三维不可...</p><div style="font-size:16px;line-height:1.8;color:#333">我们在此分享纳维–斯托克斯 (Navier–Stokes) 存在性与光滑性问题的一种解法，这是千禧年大奖难题之一。这份证明由 OpenAI 内部系统生成，表明在纳维–斯托克斯方程所描述的流体动力学演化中，可能在有限时间内出现奇点。我们同时分享阐述该证明的论文及其 Lean 形式化版本。
 
-A fundamental open question for these dynamical equations has been whether the continuum approximation of the fluid can break down. Specifically, can the Navier–Stokes equations for a three-dimensional incompressible fluid with constant density develop a “singularity,” even when the motion starts smoothly? Here, a singularity means the dynamics lead to speeds in the fluid growing without bound within a finite amount of time. The development of a singularity would have to happen despite the presence of viscosity, which tends to smooth out motion. Because a real fluid cannot move infinitely fast, this would mark a breakdown in how the equations model the fluid. To continue modeling the system, one would then need to track the behaviour of each particle individually.
+千禧年大奖难题⁠（在新窗口中打开）代表了数学前沿最深奥的一些问题。原本光滑的三维流体运动是否会在演化过程中失去光滑性，这一问题已有约 90 年未获解决。
 
-The equations date to the nineteenth-century work of Claude-Louis Navier and George Gabriel Stokes. In 1934, Jean Leray proved that solutions exist in a generalized sense, but whether they always remain smooth became a central unanswered question. In 2000, the Clay Mathematics Institute named the Navier–Stokes existence and smoothness problem one of seven Millennium Prize Problems.
+我们工作的一项重要目标，是帮助科学家推动造福全人类的研究与技术发展。为解决纳维–斯托克斯问题，我们使用了一个能力显著超过 GPT‑6 Astra 的内部模型。我们认为，有必要让全世界了解 AI 的进步速度，以及对即将推出的模型可以抱有怎样的预期。
 
-Our system produced an analytical proof and a Lean formalization that an initially smooth fluid at rest can develop a singularity in a finite time. The fluid has a smooth force applied to it, and its energy remains finite through the entire dynamics, from rest to the formation of the singularity.  This resolves the Navier–Stokes Millennium Prize problem by establishing statement “C” (and also “D”) in theofficial Millennium Prize formulation⁠(opens in a new window).
+纳维–斯托克斯方程运用牛顿第二运动定律（“F=ma”）描述流体如何运动。重要的是，它们将流体视为连续介质，而不是追踪单个分子。这些方程用于飞机设计、天气预报和血流研究。
 
-The solution is a vortex, a spinning swirl of fluid, that spirals inward and gets increasingly elongated, like spaghetti. This central region shrinks while it speeds up in such a way that its energy still stays finite, as required by the laws of physics. The technical challenge is for the equations to develop the breakdown through the motion of the fluid itself, rather than, for example, us putting in an infinite force by hand. More mathematically, the terms in the Navier–Stokes equations that describe the motion—acceleration, pressure gradients, momentum transfer, viscosity—must both becomebigyetcancelin a precise way. This detailed balance leaves a smooth external force even as the velocity of the fluid grows without bound.
+这些动力学方程有一个悬而未决的基础问题：对流体所作的连续介质近似是否会失效。具体而言，即使运动初始时是光滑的，描述密度恒定的三维不可压缩流体的纳维–斯托克斯方程是否仍会产生“奇点”？这里，奇点是指流体动力学演化导致流速在有限时间内无限增大。虽然黏性通常会使流体运动趋于平滑，但奇点若要形成，就必须在这种黏性仍然存在的情况下形成。由于真实流体不可能以无限快的速度运动，这将标志着方程对流体的建模失效。若要继续对该系统建模，届时就需要分别追踪每个粒子的行为。
 
-A snapshot of local incompressible motion. Orange marks faster angular rotation; teal marks slower rotation. Circulating speed also depends on radius. The trajectories show inward spiraling and axial stretching.
+这些方程可追溯至 Claude-Louis Navier 和 George Gabriel Stokes 在 19 世纪的研究。1934 年，Jean Leray 证明了广义解的存在性，而这些解能否始终保持光滑，则成为一个尚待解决的核心问题。2000 年，克雷数学研究所将纳维–斯托克斯存在性与光滑性问题列为七大千禧年大奖难题之一。
 
-How we found the proof
+我们的系统给出了解析证明和 Lean 形式化证明，表明初始静止且光滑的流体可在有限时间内产生奇点。流体受到光滑外力作用，而从静止到形成奇点的整个动力学过程中，其能量始终有限。这一结果证明了千禧年大奖难题官方表述⁠（在新窗口中打开）中的命题“C”（以及“D”）成立，从而解决了纳维–斯托克斯千禧年大奖难题。
 
-Since August 28 we have been training a new internal model that has exhibited unprecedented performance in our benchmarks, including mathematics. This model’s training is ongoing and its performance continues to improve.
+该解是一个涡旋，即一股旋转的流体漩涡，它向内盘旋并像意大利面一样越拉越长。这一中心区域在收缩的同时加速，但其能量仍保持有限，符合物理定律的要求。技术难点在于，使方程的解因流体自身的运动而失去光滑性，而不是靠人为施加无限大的力等方式造成这一结果。更严格地说，纳维–斯托克斯方程中描述运动的各项——加速度、压力梯度、动量传递和黏性——既必须变得很大，又必须以精确方式相互抵消。这种精细平衡使外力保持光滑，即使流体速度无限增大也是如此。
 
-On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems.
+局部不可压缩流动的一个瞬时状态。橙色表示旋转角速度较大，蓝绿色表示旋转角速度较小。沿圆周方向运动的线速度还取决于旋转半径。轨迹显示了向内盘旋和轴向拉伸。
 
-We used a system of coordinating agents powered by our internal model. The agents had access to tools such as the ability to read from a cached version of the internet and the ability to run code. Agents were subdivided into groups with the ability to communicate within the group. The groups varied in size, and the group that produced the Navier–Stokes resolution involved on the order of 10,000 concurrent agents. At all times we maintained the same strict safeguards that we apply to all our frontier model evaluations, including monitoring and isolation.
+自 8 月 28 日起，我们一直在训练一个新的内部模型；该模型在我们的基准测试中取得了前所未有的成绩，其中包括数学方面的测试。该模型仍在训练中，性能也在持续提升。
 
-For each problem, we prompted different groups of agents with different variants of the problem statement, covering all variants of the problem. For the Navier–Stokes problem, we suggested versions “A” and “B” (particular forms of the Navier–Stokes problem which would result in a proof) and versions “C” and “D” (which would result in a disproof) to separate groups of agents.
+9 月 1 日星期二，我们听到传闻称，两道千禧年大奖难题已获解决。受这些传闻以及内部模型性能跃升的启发，我们启动了一个项目，评估它解决所有尚未攻克的千禧年大奖难题和其他几项高影响力问题的能力。
 
-In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was theunforcedversion,whereno external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof1.
+我们使用了一个由内部模型驱动、多个智能体协同工作的系统。这些智能体可以使用多种工具，例如读取互联网缓存版本和运行代码。智能体被分成多个组，并能在组内进行沟通。各组规模不一，得出纳维–斯托克斯问题解法的组包含约 10,000 个并发智能体。我们始终采用与所有前沿模型评估相同的严格安全措施，包括监控和隔离。
 
-Once we saw the Euler solution, we thought that Navier–Stokes was the most promising problem to work on. Thus, we decided to devote our resources to Navier–Stokes. To do so, we shifted agents away from the other Millennium Problems and prompted these agents with the Euler resolution. When a further trained version of our internal model became available over the course of the effort, we updated our agents to that model.
+对于每个问题，我们向不同组的智能体提供不同版本的问题陈述，以覆盖该问题的所有变体。对于纳维–斯托克斯问题，我们分别向不同的智能体组提供了版本“A”和“B”（纳维–斯托克斯问题的两种特定形式，解决相应版本可得出正面证明），以及版本“C”和“D”（解决相应版本可得出否证）。
 
-We encouraged different groups of agents to explore a diversity of approaches. After some time, we cross-pollinated the agent groups by using Codex to consolidate the most useful insights from each agent group. These follow-up prompts drew on the agents’ own intermediate results. The group that found the solution to Navier–Stokes was guided in such a way.
+除了完整的千禧年大奖难题，我们还让多智能体系统尝试了一组“较简单”的问题。其中一个问题涉及去掉黏性项后的纳维–斯托克斯方程这一极限情形：其解是否也会发生类似的爆破。这称为欧拉方程的正则性问题；令我们惊讶的是，智能体解决了它。它们解决的具体变体是无外力版本，即不对流体施加任何外力。近 100 个智能体协作约 50 小时，给出了证明，表明欧拉方程的解可能失去正则性1。
 
-The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.
+看到欧拉方程正则性问题的解决结果后，我们认为纳维–斯托克斯问题最有希望取得突破。因此，我们决定将资源集中投入纳维–斯托克斯问题。为此，我们将智能体从其他千禧年大奖难题转移过来，并以欧拉方程的解法作为提示词，引导这些智能体。在项目推进期间，经过进一步训练的内部模型版本可用后，我们便将智能体切换到该版本。
 
-Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.
+我们鼓励不同的智能体组探索多种思路。一段时间后，我们使用 Codex 汇总各智能体组最有价值的见解，促进不同组之间的思想交流。这些后续提示词借鉴了智能体自身的中间结果。找到纳维–斯托克斯问题解法的小组正是以这种方式获得引导的。
 
-Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU.2After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that, using an internal Anthropic model, they had produced a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement.
+智能体于 9 月 5 日星期六得出解法，距首批智能体启动约 88 小时。随后通过 GPT‑6 Astra 完成 Lean 形式化与验证，又耗时 17 小时。
 
-We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem.
+在尝试解决所有这些问题的过程中，智能体共发送 490 万条消息，使用了约 3000 亿个输出 token。在解决纳维–斯托克斯问题的过程中，智能体发送了 270 万条消息，使用了约 1300 亿个输出 token。
 
-Following an investigation, we have confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not have influenced the system in any way, including through training. The OpenAI internal model used for this result was developed through large-scale reinforcement learning on top of a previously pretrained model. Our proofs also differ significantly. In the Euler case, Alpöge and Buckmaster proved a result with external forcing, while OpenAI’s system proved a result without external forcing.
+我们是在听到一则传闻后于 9 月 1 日启动这项工作的，后来才得知传闻与 Anthropic 员工 Levent Alpöge 和纽约大学数学教授 Tristan Buckmaster 有关。2在我们的完整项目和 Lean 验证完成后（9 月 6 日），我们根据传闻认为他们也找到了纳维–斯托克斯问题的解法，于是联系二人，提议与他们同时发布研究结果，并在联合公告中承认他们率先取得了相关成果。那时我们才得知，他们使用 Anthropic 的内部模型解决了受迫欧拉方程问题。在沟通中，我们提出让他们查看我们使用的全部提示词，之后也提出让他们查看证明。我们承认他们率先取得了受迫欧拉方程问题的相关研究成果，并祝贺他们取得这一非凡的数学成就。
 
-Progress and responsibility
+在他们公开发布之前，我们（研究人员和智能体）未曾通过任何途径看到他们的工作——尤其是，我们没有为解决此问题而访问任何特定用户的数据。
 
-Our goal in releasing this result is to report on the substantial progress of our AI models. We do not intend to claim the Millennium Prize for this result.
+经调查，我们已确认，Buckmaster 在本公告及论文于 2026 年 9 月 8 日发布之前的两个月内提交给 Codex 的提示词，不可能通过任何方式影响该系统，包括通过训练产生影响。用于得出这一结果的 OpenAI 内部模型，是在一个此前完成预训练的模型基础上，通过大规模强化学习开发的。我们的证明也有显著差异。对于欧拉方程，Alpöge 和 Buckmaster 在存在外力作用的条件下证明了相关结论，而 OpenAI 的系统则在没有外力作用的条件下证明了相关结论。
 
-This milestone represents substantial work by mathematicians and AI researchers. However, this is not a culmination, but rather a snapshot in time, of progress on AI development.
+我们发布这一结果，是为了说明我们的 AI 模型已取得重大进展。我们无意凭借这一结果申领千禧年大奖。
 
-We believe we are now in the next period of AI progress⁠, and today’s results provide further evidence of this. We are focusing on understanding this model, and using what we learn to help us guide and pace how we pursue further advances in capability. One of ourkey goals⁠is to build AI systems which are steerable, accountable, and connected to people, which may require more deliberate choices about the pace of progress, as we continue our mission to ensure AGI benefits all of humanity.
+这一里程碑凝聚了数学家和 AI 研究人员的大量工作。不过，这并非终点，而只是 AI 发展进程在这一时刻的缩影。
 
-1Read the Euler proof paper⁠(opens in a new window)·Link to Lean formalized proof⁠(opens in a new window)
+我们相信，AI 的发展现已进入下一个阶段⁠，今天的结果进一步印证了这一点。我们正专注于理解这一模型，并运用由此获得的认识，指导和调控下一步能力提升的方向与节奏。我们的主要目标⁠之一，是构建可引导、可问责且与人紧密相连的 AI 系统。随着我们继续履行确保 AGI 造福全人类的使命，这可能要求我们更审慎地选择进步的速度。
 
-Read the Euler proof paper⁠(opens in a new window)·Link to Lean formalized proof⁠(opens in a new window)
+1阅读欧拉方程证明论文⁠（在新窗口中打开）·Lean 形式化证明链接⁠（在新窗口中打开）
 
-2Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.
+阅读欧拉方程证明论文⁠（在新窗口中打开）·Lean 形式化证明链接⁠（在新窗口中打开）
 
-Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/navier-stokes-solution/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.
+2更新——2026 年 9 月 10 日：我们已更新“同期工作”部分，加入了有关用户输入是否可能影响这一结果的调查结论。
 
-TheMillennium Prize Problems⁠(opens in a new window)represent some of the deepest questions at the frontier of mathematics. The question of wheth...</p><div style="font-size:16px;line-height:1.8;color:#333">We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean.
+更新——2026 年 9 月 10 日：我们已更新“同期工作”部分，加入了有关用户输入是否可能影响这一结果的调查结论。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/navier-stokes-solution/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">我们在此分享纳维–斯托克斯 (Navier–Stokes) 存在性与光滑性问题的一种解法，这是千禧年大奖难题之一。这份证明由 OpenAI 内部系统生成，表明在纳维–斯托克斯方程所描述的流体动力学演化中，可能在有限时间内出现奇点。我们同时分享阐述该证明的论文及其 Lean 形式化版本。
 
-TheMillennium Prize Problems⁠(opens in a new window)represent some of the deepest questions at the frontier of mathematics. The question of whether smooth three-dimensional fluid motion can break down has remained unresolved for roughly 90 years.
+千禧年大奖难题⁠（在新窗口中打开）代表了数学前沿最深奥的一些问题。原本光滑的三维流体运动是否会在演化过程中失去光滑性，这一问题已有约 90 年未获解决。
 
-A major goal of our work is to empower scientists to advance research and technology that benefits all of humanity. To solve the Navier–Stokes problem, we used an internal model that is significantly more capable than GPT‑6 Astra. We believe it is important to inform the world about the pace of AI progress and what to expect from upcoming models.
+我们工作的一项重要目标，是帮助科学家推动造福全人类的研究与技术发展。为解决纳维–斯托克斯问题，我们使用了一个能力显著超过 GPT‑6 Astra 的内部模型。我们认为，有必要让全世界了解 AI 的进步速度，以及对即将推出的模型可以抱有怎样的预期。
 
-The Navier–Stokes equations use Newton’s second law of motion (“F=ma”) to describe how fluids move. Importantly, they treat a fluid as a continuous medium rather than tracking individual molecules. These equations are used for aircraft design, weather forecasting, and the study of blood flow.
+纳维–斯托克斯方程运用牛顿第二运动定律（“F=ma”）描述流体如何运动。重要的是，它们将流体视为连续介质，而不是追踪单个分子。这些方程用于飞机设计、天气预报和血流研究。
 
-A fundamental open question for these dynamical equations has been whether the continuum approximation of the fluid can break down. Specifically, can the Navier–Stokes equations for a three-dimensional incompressible fluid with constant density develop a “singularity,” even when the motion starts smoothly? Here, a singularity means the dynamics lead to speeds in the fluid growing without bound within a finite amount of time. The development of a singularity would have to happen despite the presence of viscosity, which tends to smooth out motion. Because a real fluid cannot move infinitely fast, this would mark a breakdown in how the equations model the fluid. To continue modeling the system, one would then need to track the behaviour of each particle individually.
+这些动力学方程有一个悬而未决的基础问题：对流体所作的连续介质近似是否会失效。具体而言，即使运动初始时是光滑的，描述密度恒定的三维不可...</p><div style="font-size:16px;line-height:1.8;color:#333">我们在此分享纳维–斯托克斯 (Navier–Stokes) 存在性与光滑性问题的一种解法，这是千禧年大奖难题之一。这份证明由 OpenAI 内部系统生成，表明在纳维–斯托克斯方程所描述的流体动力学演化中，可能在有限时间内出现奇点。我们同时分享阐述该证明的论文及其 Lean 形式化版本。
 
-The equations date to the nineteenth-century work of Claude-Louis Navier and George Gabriel Stokes. In 1934, Jean Leray proved that solutions exist in a generalized sense, but whether they always remain smooth became a central unanswered question. In 2000, the Clay Mathematics Institute named the Navier–Stokes existence and smoothness problem one of seven Millennium Prize Problems.
+千禧年大奖难题⁠（在新窗口中打开）代表了数学前沿最深奥的一些问题。原本光滑的三维流体运动是否会在演化过程中失去光滑性，这一问题已有约 90 年未获解决。
 
-Our system produced an analytical proof and a Lean formalization that an initially smooth fluid at rest can develop a singularity in a finite time. The fluid has a smooth force applied to it, and its energy remains finite through the entire dynamics, from rest to the formation of the singularity.  This resolves the Navier–Stokes Millennium Prize problem by establishing statement “C” (and also “D”) in theofficial Millennium Prize formulation⁠(opens in a new window).
+我们工作的一项重要目标，是帮助科学家推动造福全人类的研究与技术发展。为解决纳维–斯托克斯问题，我们使用了一个能力显著超过 GPT‑6 Astra 的内部模型。我们认为，有必要让全世界了解 AI 的进步速度，以及对即将推出的模型可以抱有怎样的预期。
 
-The solution is a vortex, a spinning swirl of fluid, that spirals inward and gets increasingly elongated, like spaghetti. This central region shrinks while it speeds up in such a way that its energy still stays finite, as required by the laws of physics. The technical challenge is for the equations to develop the breakdown through the motion of the fluid itself, rather than, for example, us putting in an infinite force by hand. More mathematically, the terms in the Navier–Stokes equations that describe the motion—acceleration, pressure gradients, momentum transfer, viscosity—must both becomebigyetcancelin a precise way. This detailed balance leaves a smooth external force even as the velocity of the fluid grows without bound.
+纳维–斯托克斯方程运用牛顿第二运动定律（“F=ma”）描述流体如何运动。重要的是，它们将流体视为连续介质，而不是追踪单个分子。这些方程用于飞机设计、天气预报和血流研究。
 
-A snapshot of local incompressible motion. Orange marks faster angular rotation; teal marks slower rotation. Circulating speed also depends on radius. The trajectories show inward spiraling and axial stretching.
+这些动力学方程有一个悬而未决的基础问题：对流体所作的连续介质近似是否会失效。具体而言，即使运动初始时是光滑的，描述密度恒定的三维不可压缩流体的纳维–斯托克斯方程是否仍会产生“奇点”？这里，奇点是指流体动力学演化导致流速在有限时间内无限增大。虽然黏性通常会使流体运动趋于平滑，但奇点若要形成，就必须在这种黏性仍然存在的情况下形成。由于真实流体不可能以无限快的速度运动，这将标志着方程对流体的建模失效。若要继续对该系统建模，届时就需要分别追踪每个粒子的行为。
 
-How we found the proof
+这些方程可追溯至 Claude-Louis Navier 和 George Gabriel Stokes 在 19 世纪的研究。1934 年，Jean Leray 证明了广义解的存在性，而这些解能否始终保持光滑，则成为一个尚待解决的核心问题。2000 年，克雷数学研究所将纳维–斯托克斯存在性与光滑性问题列为七大千禧年大奖难题之一。
 
-Since August 28 we have been training a new internal model that has exhibited unprecedented performance in our benchmarks, including mathematics. This model’s training is ongoing and its performance continues to improve.
+我们的系统给出了解析证明和 Lean 形式化证明，表明初始静止且光滑的流体可在有限时间内产生奇点。流体受到光滑外力作用，而从静止到形成奇点的整个动力学过程中，其能量始终有限。这一结果证明了千禧年大奖难题官方表述⁠（在新窗口中打开）中的命题“C”（以及“D”）成立，从而解决了纳维–斯托克斯千禧年大奖难题。
 
-On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems.
+该解是一个涡旋，即一股旋转的流体漩涡，它向内盘旋并像意大利面一样越拉越长。这一中心区域在收缩的同时加速，但其能量仍保持有限，符合物理定律的要求。技术难点在于，使方程的解因流体自身的运动而失去光滑性，而不是靠人为施加无限大的力等方式造成这一结果。更严格地说，纳维–斯托克斯方程中描述运动的各项——加速度、压力梯度、动量传递和黏性——既必须变得很大，又必须以精确方式相互抵消。这种精细平衡使外力保持光滑，即使流体速度无限增大也是如此。
 
-We used a system of coordinating agents powered by our internal model. The agents had access to tools such as the ability to read from a cached version of the internet and the ability to run code. Agents were subdivided into groups with the ability to communicate within the group. The groups varied in size, and the group that produced the Navier–Stokes resolution involved on the order of 10,000 concurrent agents. At all times we maintained the same strict safeguards that we apply to all our frontier model evaluations, including monitoring and isolation.
+局部不可压缩流动的一个瞬时状态。橙色表示旋转角速度较大，蓝绿色表示旋转角速度较小。沿圆周方向运动的线速度还取决于旋转半径。轨迹显示了向内盘旋和轴向拉伸。
 
-For each problem, we prompted different groups of agents with different variants of the problem statement, covering all variants of the problem. For the Navier–Stokes problem, we suggested versions “A” and “B” (particular forms of the Navier–Stokes problem which would result in a proof) and versions “C” and “D” (which would result in a disproof) to separate groups of agents.
+自 8 月 28 日起，我们一直在训练一个新的内部模型；该模型在我们的基准测试中取得了前所未有的成绩，其中包括数学方面的测试。该模型仍在训练中，性能也在持续提升。
 
-In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was theunforcedversion,whereno external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof1.
+9 月 1 日星期二，我们听到传闻称，两道千禧年大奖难题已获解决。受这些传闻以及内部模型性能跃升的启发，我们启动了一个项目，评估它解决所有尚未攻克的千禧年大奖难题和其他几项高影响力问题的能力。
 
-Once we saw the Euler solution, we thought that Navier–Stokes was the most promising problem to work on. Thus, we decided to devote our resources to Navier–Stokes. To do so, we shifted agents away from the other Millennium Problems and prompted these agents with the Euler resolution. When a further trained version of our internal model became available over the course of the effort, we updated our agents to that model.
+我们使用了一个由内部模型驱动、多个智能体协同工作的系统。这些智能体可以使用多种工具，例如读取互联网缓存版本和运行代码。智能体被分成多个组，并能在组内进行沟通。各组规模不一，得出纳维–斯托克斯问题解法的组包含约 10,000 个并发智能体。我们始终采用与所有前沿模型评估相同的严格安全措施，包括监控和隔离。
 
-We encouraged different groups of agents to explore a diversity of approaches. After some time, we cross-pollinated the agent groups by using Codex to consolidate the most useful insights from each agent group. These follow-up prompts drew on the agents’ own intermediate results. The group that found the solution to Navier–Stokes was guided in such a way.
+对于每个问题，我们向不同组的智能体提供不同版本的问题陈述，以覆盖该问题的所有变体。对于纳维–斯托克斯问题，我们分别向不同的智能体组提供了版本“A”和“B”（纳维–斯托克斯问题的两种特定形式，解决相应版本可得出正面证明），以及版本“C”和“D”（解决相应版本可得出否证）。
 
-The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.
+除了完整的千禧年大奖难题，我们还让多智能体系统尝试了一组“较简单”的问题。其中一个问题涉及去掉黏性项后的纳维–斯托克斯方程这一极限情形：其解是否也会发生类似的爆破。这称为欧拉方程的正则性问题；令我们惊讶的是，智能体解决了它。它们解决的具体变体是无外力版本，即不对流体施加任何外力。近 100 个智能体协作约 50 小时，给出了证明，表明欧拉方程的解可能失去正则性1。
 
-Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.
+看到欧拉方程正则性问题的解决结果后，我们认为纳维–斯托克斯问题最有希望取得突破。因此，我们决定将资源集中投入纳维–斯托克斯问题。为此，我们将智能体从其他千禧年大奖难题转移过来，并以欧拉方程的解法作为提示词，引导这些智能体。在项目推进期间，经过进一步训练的内部模型版本可用后，我们便将智能体切换到该版本。
 
-Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU.2After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that, using an internal Anthropic model, they had produced a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement.
+我们鼓励不同的智能体组探索多种思路。一段时间后，我们使用 Codex 汇总各智能体组最有价值的见解，促进不同组之间的思想交流。这些后续提示词借鉴了智能体自身的中间结果。找到纳维–斯托克斯问题解法的小组正是以这种方式获得引导的。
 
-We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem.
+智能体于 9 月 5 日星期六得出解法，距首批智能体启动约 88 小时。随后通过 GPT‑6 Astra 完成 Lean 形式化与验证，又耗时 17 小时。
 
-Following an investigation, we have confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not have influenced the system in any way, including through training. The OpenAI internal model used for this result was developed through large-scale reinforcement learning on top of a previously pretrained model. Our proofs also differ significantly. In the Euler case, Alpöge and Buckmaster proved a result with external forcing, while OpenAI’s system proved a result without external forcing.
+在尝试解决所有这些问题的过程中，智能体共发送 490 万条消息，使用了约 3000 亿个输出 token。在解决纳维–斯托克斯问题的过程中，智能体发送了 270 万条消息，使用了约 1300 亿个输出 token。
 
-Progress and responsibility
+我们是在听到一则传闻后于 9 月 1 日启动这项工作的，后来才得知传闻与 Anthropic 员工 Levent Alpöge 和纽约大学数学教授 Tristan Buckmaster 有关。2在我们的完整项目和 Lean 验证完成后（9 月 6 日），我们根据传闻认为他们也找到了纳维–斯托克斯问题的解法，于是联系二人，提议与他们同时发布研究结果，并在联合公告中承认他们率先取得了相关成果。那时我们才得知，他们使用 Anthropic 的内部模型解决了受迫欧拉方程问题。在沟通中，我们提出让他们查看我们使用的全部提示词，之后也提出让他们查看证明。我们承认他们率先取得了受迫欧拉方程问题的相关研究成果，并祝贺他们取得这一非凡的数学成就。
 
-Our goal in releasing this result is to report on the substantial progress of our AI models. We do not intend to claim the Millennium Prize for this result.
+在他们公开发布之前，我们（研究人员和智能体）未曾通过任何途径看到他们的工作——尤其是，我们没有为解决此问题而访问任何特定用户的数据。
 
-This milestone represents substantial work by mathematicians and AI researchers. However, this is not a culmination, but rather a snapshot in time, of progress on AI development.
+经调查，我们已确认，Buckmaster 在本公告及论文于 2026 年 9 月 8 日发布之前的两个月内提交给 Codex 的提示词，不可能通过任何方式影响该系统，包括通过训练产生影响。用于得出这一结果的 OpenAI 内部模型，是在一个此前完成预训练的模型基础上，通过大规模强化学习开发的。我们的证明也有显著差异。对于欧拉方程，Alpöge 和 Buckmaster 在存在外力作用的条件下证明了相关结论，而 OpenAI 的系统则在没有外力作用的条件下证明了相关结论。
 
-We believe we are now in the next period of AI progress⁠, and today’s results provide further evidence of this. We are focusing on understanding this model, and using what we learn to help us guide and pace how we pursue further advances in capability. One of ourkey goals⁠is to build AI systems which are steerable, accountable, and connected to people, which may require more deliberate choices about the pace of progress, as we continue our mission to ensure AGI benefits all of humanity.
+我们发布这一结果，是为了说明我们的 AI 模型已取得重大进展。我们无意凭借这一结果申领千禧年大奖。
 
-1Read the Euler proof paper⁠(opens in a new window)·Link to Lean formalized proof⁠(opens in a new window)
+这一里程碑凝聚了数学家和 AI 研究人员的大量工作。不过，这并非终点，而只是 AI 发展进程在这一时刻的缩影。
 
-Read the Euler proof paper⁠(opens in a new window)·Link to Lean formalized proof⁠(opens in a new window)
+我们相信，AI 的发展现已进入下一个阶段⁠，今天的结果进一步印证了这一点。我们正专注于理解这一模型，并运用由此获得的认识，指导和调控下一步能力提升的方向与节奏。我们的主要目标⁠之一，是构建可引导、可问责且与人紧密相连的 AI 系统。随着我们继续履行确保 AGI 造福全人类的使命，这可能要求我们更审慎地选择进步的速度。
 
-2Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.
+1阅读欧拉方程证明论文⁠（在新窗口中打开）·Lean 形式化证明链接⁠（在新窗口中打开）
 
-Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/navier-stokes-solution/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+阅读欧拉方程证明论文⁠（在新窗口中打开）·Lean 形式化证明链接⁠（在新窗口中打开）
+
+2更新——2026 年 9 月 10 日：我们已更新“同期工作”部分，加入了有关用户输入是否可能影响这一结果的调查结论。
+
+更新——2026 年 9 月 10 日：我们已更新“同期工作”部分，加入了有关用户输入是否可能影响这一结果的调查结论。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/navier-stokes-solution/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
   <title>Research acceleration: The view inside OpenAI</title>
@@ -600,144 +604,152 @@ Metrics of coding agent use cover most, but not all, usage given rapid evolution
   <guid isPermaLink="false">https://openai.com/index/pacing-model-development-cyber-capabilities/</guid>
   <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
   <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">过去几周的两项进展凸显出，能力日益增强的 AI 系统正带来不断上升的风险：一是OpenAI-Hugging Face 事件；二是初步证据表明，我们即将推出的模型之一 Astra 可能已达到网络安全关键能力门槛，即符合我们准备框架中的相关标准。这些进展，加上内部研究的快速推进，使我们更迫切地需要在训练流程的各个阶段加强监控、对齐和遏制保障措施。
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
 
-随着模型能力增强，内部开发和测试模型所伴随的风险也在上升。我们的监控、对齐和安全标准必须领先于这些风险。为了留出达到这些标准所需的时间，我们暂时放慢了扩展步伐。其中包括暂停两周对拟部署的最新模型进行强化学习（RL）训练，以便进一步加固研究环境、开展红队测试，并扩大监控系统的覆盖范围。我们计划开展的最大规模前沿强化学习训练仍处于暂停状态。在继续推进之前，我们正通过较小规模的训练和评估来考察模型行为、验证保障措施，并积累更多对齐证据。
+As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
 
-对齐，即让 AI 系统按预期行事并接受人类监督，长期以来一直是我们研究计划的核心。在现有研究和评估的基础上，我们现在要求在整个训练过程中提供更有力的行为对齐证据。如何让能力日益增强的系统保持对齐，是整个领域都需要解...</p><div style="font-size:16px;line-height:1.8;color:#333">过去几周的两项进展凸显出，能力日益增强的 AI 系统正带来不断上升的风险：一是OpenAI-Hugging Face 事件；二是初步证据表明，我们即将推出的模型之一 Astra 可能已达到网络安全关键能力门槛，即符合我们准备框架中的相关标准。这些进展，加上内部研究的快速推进，使我们更迫切地需要在训练流程的各个阶段加强监控、对齐和遏制保障措施。
+Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
 
-随着模型能力增强，内部开发和测试模型所伴随的风险也在上升。我们的监控、对齐和安全标准必须领先于这些风险。为了留出达到这些标准所需的时间，我们暂时放慢了扩展步伐。其中包括暂停两周对拟部署的最新模型进行强化学习（RL）训练，以便进一步加固研究环境、开展红队测试，并扩大监控系统的覆盖范围。我们计划开展的最大规模前沿强化学习训练仍处于暂停状态。在继续推进之前，我们正通过较小规模的训练和评估来考察模型行为、验证保障措施，并积累更多对齐证据。
+We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
 
-对齐，即让 AI 系统按预期行事并接受人类监督，长期以来一直是我们研究计划的核心。在现有研究和评估的基础上，我们现在要求在整个训练过程中提供更有力的行为对齐证据。如何让能力日益增强的系统保持对齐，是整个领域都需要解决的挑战。即将推出的模型所展现的进展信号清楚表明，我们需要采用更全面的方法：既以现行准备框架为基础，又超越其范围。
+Strengthening safeguards for more capable models
 
-我们认为，有必要公开说明我们的方法正在发生怎样的变化。下面，我们将介绍已对研究流程和基础设施做出的调整，以及仍在推进的工作。
+Our approach to developing more capable models rests on three reinforcing safeguards:
 
-我们开发更强大模型的方法建立在三项相互强化的保障措施之上：
+Monitoring, which detects and allows us to respond to concerning behavior.
 
-监控：发现令人担忧的行为，使我们能够及时应对。
+Monitoring, which detects and allows us to respond to concerning behavior.
 
-监控：发现令人担忧的行为，使我们能够及时应对。
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
 
-对齐：降低有害或未经授权的行为发生的可能性。
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
 
-对齐：降低有害或未经授权的行为发生的可能性。
+Security measures, which limit what AI systems can access or affect.
 
-安全措施：限制 AI 系统能够访问或影响的对象。
+Security measures, which limit what AI systems can access or affect.
 
-安全措施：限制 AI 系统能够访问或影响的对象。
+We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
 
-我们预计，模型很快将承担大部分安全工作，包括防御其他模型。这将使三项保障措施都能随模型能力同步扩展，我们认为这一点至关重要。
+We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
 
-我们将这些保障措施贯穿研究与部署，并根据每个模型的能力、运行环境和风险水平进行调整。
+Securing our research environments
 
-随着前沿模型具备更强的网络安全能力，我们正在提高其训练和评估环境的安全标准。达到这些标准需要大量工程投入，也给前沿研究带来了高昂成本和延误。OpenAI-Hugging Face 事件*发生后，我们立即暂停了研究集群中的部分前沿模型推理任务，涉及可能执行代码或使用可访问互联网工具的运行。我们很快恢复了一条权限更受限、更安全的代码执行路径，随后逐一审查各项工作负载，以确定能否安全恢复。部分研究工作负载在这些新控制措施下恢复，其他工作负载则需要进一步调整。
+As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
 
-在随后几周里，我们制定并开始实施更严格的前沿研究工作负载安全要求。例如：
+Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
 
-工作负载隔离：对于执行模型生成代码或其他不受信任代码的工作负载，我们现在要求采用更严格的隔离措施（“沙箱”）。这也适用于处理模型输出时可能遭到入侵的软件。
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
 
-工作负载隔离：对于执行模型生成代码或其他不受信任代码的工作负载，我们现在要求采用更严格的隔离措施（“沙箱”）。这也适用于处理模型输出时可能遭到入侵的软件。
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
 
-网络隔离：我们实施了更多控制措施，将较高风险和不受信任的工作负载与互联网隔离。这些控制措施经过专门设计，确保单个工作负载或支持服务遭到入侵时，不会仅凭这一点就导致互联网或其他内部网络遭到未经授权的访问。
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
 
-网络隔离：我们实施了更多控制措施，将较高风险和不受信任的工作负载与互联网隔离。这些控制措施经过专门设计，确保单个工作负载或支持服务遭到入侵时，不会仅凭这一点就导致互联网或其他内部网络遭到未经授权的访问。
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
 
-持续安全测试：我们重新配置了环境，以移除可能存在漏洞的共享服务、减少常驻权限，并改善安全边界和信任边界。我们也在提升安全日志的收集和监控能力。最后，我们正在投资于自动化，利用模型持续以模拟攻击测试这些边界。
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
 
-持续安全测试：我们重新配置了环境，以移除可能存在漏洞的共享服务、减少常驻权限，并改善安全边界和信任边界。我们也在提升安全日志的收集和监控能力。最后，我们正在投资于自动化，利用模型持续以模拟攻击测试这些边界。
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
 
-这些控制措施共同构成纵深防御，有助于保护我们的研究环境免受攻击。目前，涉及 Astra 或网络安全模型的工作负载必须采用最高级别的安全保障措施，因为我们已认定 Astra 模型可能具备关键级别的网络安全能力。这些保障措施也适用于所有其他网络安全相关工作负载。
+Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
 
-部分 Astra 训练和评估已符合这些要求，但大量工作负载仍处于暂停状态，直至完全迁移并强化到符合新的安全标准。我们正优先将安全和对齐工作负载迁移至这些新环境。
+While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
 
-监控长期以来一直是模型开发流程的重要组成部分，包括监控内部编程智能体和长时间运行的会话。我们的监控工作尤其关注前沿模型的内部部署和前沿强化学习训练运行。我们认为这些工作负载风险最高，因为它们可能同时具备先进的模型能力，并能访问工具、敏感系统以及内部或外部网络。这些监控并未应用于所有使用工具的推理和训练运行。我们通过新的监控设置修订并扩展了现有方法。
+Expanding chain-of-thought monitoring
 
-新的监控设置采用多阶段机制：首先由激活分类器（检查模型内部活动的检测器）检查每个采样 Token，再将潜在问题逐级上报给日益复杂、需要更高算力的自动调查系统。这些系统会检查工具操作、可用的推理信息和完整活动序列，以发现未经授权的访问、数据窃取、破坏性行为以及规避保障措施的企图。我们的目标是在监控系统发现可疑活动后的 30 分钟内发出警报。如果监控系统发现可能违反关键安全边界的行为，就会生成最高优先级警报。在当前实施方案中，安全、安保和研究团队会收到传呼通知。如果这些团队无法在 30 分钟内确定该标记为误报，就应暂停相关活动。
+Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
 
-对于能力达到 Sol 或更高水平的模型，所有涉及工具的强化学习训练和评估都必须接受这类监控。8 月 7 日，我们认定 Astra 可能具备关键网络安全能力后，又对所有使用工具的 Astra 推理增加了监控要求，而不再仅限于强化学习训练和评估。
+This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
 
-这些保障措施需要投入可观的算力。根据目前估算，监控开销约相当于被监控推理算力的 20%，但不同训练和评估工作负载的成本差异很大。我们将在后续博客文章中详细介绍这一系统。
+This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
 
-对齐研究是我们使命的核心。我们的使命是确保通用人工智能造福全人类。随着模型获得网络攻击能力等先进能力，并在更复杂的环境中运行，奖励操纵（在训练中设法获得高奖励，却并未真正实现预期结果）、欺骗或未经授权的访问等未对齐行为将带来越来越严重的风险。
+These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
 
-对于能力最强模型的强化学习训练，我们现在会在训练流程的更多阶段应用核心对齐技术。其中包括：改进奖励模型，以便更好地发现并抑制不同任务和环境中的不安全行为；训练模型，使其更诚实地说明自身的行为、能力和局限；减少利用奖励、评分器、工具或监督机制弱点的行为。对于模型与外部系统或资源交互时可能造成伤害的行为，我们也在扩大训练覆盖范围。
+Advancing alignment research
 
-我们将继续大力投入对齐研究、扩大评估覆盖范围，并将研究所得用于指导训练和保障措施。我们计划近期分享更多对齐研究成果，包括对模型行为的新认识，以及发现的任何新型挑战。
+Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
 
-我们将完善准备框架，把这些保障措施贯穿训练和部署，并更准确地反映未来模型的能力及其运行环境。要开发能够随这些能力同步扩展的方法，就必须持续投资于模型辅助安全、更有效的监控，并不断推进对齐研究。随着方法不断完善，我们计划邀请外部组织参与，并分享更多研究所得。
+For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
 
-前沿模型的能力正在迅速提升。我们理解、对齐和保护这些模型的能力必须始终领先一步。
+We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
 
-*我们将在未来几周发布一份技术报告，介绍从中获得的经验。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">过去几周的两项进展凸显出，能力日益增强的 AI 系统正带来不断上升的风险：一是OpenAI-Hugging Face 事件；二是初步证据表明，我们即将推出的模型之一 Astra 可能已达到网络安全关键能力门槛，即符合我们准备框架中的相关标准。这些进展，加上内部研究的快速推进，使我们更迫切地需要在训练流程的各个阶段加强监控、对齐和遏制保障措施。
+We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
 
-随着模型能力增强，内部开发和测试模型所伴随的风险也在上升。我们的监控、对齐和安全标准必须领先于这些风险。为了留出达到这些标准所需的时间，我们暂时放慢了扩展步伐。其中包括暂停两周对拟部署的最新模型进行强化学习（RL）训练，以便进一步加固研究环境、开展红队测试，并扩大监控系统的覆盖范围。我们计划开展的最大规模前沿强化学习训练仍处于暂停状态。在继续推进之前，我们正通过较小规模的训练和评估来考察模型行为、验证保障措施，并积累更多对齐证据。
+The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
 
-对齐，即让 AI 系统按预期行事并接受人类监督，长期以来一直是我们研究计划的核心。在现有研究和评估的基础上，我们现在要求在整个训练过程中提供更有力的行为对齐证据。如何让能力日益增强的系统保持对齐，是整个领域都需要解...</p><div style="font-size:16px;line-height:1.8;color:#333">过去几周的两项进展凸显出，能力日益增强的 AI 系统正带来不断上升的风险：一是OpenAI-Hugging Face 事件；二是初步证据表明，我们即将推出的模型之一 Astra 可能已达到网络安全关键能力门槛，即符合我们准备框架中的相关标准。这些进展，加上内部研究的快速推进，使我们更迫切地需要在训练流程的各个阶段加强监控、对齐和遏制保障措施。
+*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containme...</p><div style="font-size:16px;line-height:1.8;color:#333">Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: theOpenAI-Hugging Face incidentand, separately, preliminary evidence that one of our upcoming models, Astra, may meet theCritical cybersecurity capabilitythreshold under ourPreparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.
 
-随着模型能力增强，内部开发和测试模型所伴随的风险也在上升。我们的监控、对齐和安全标准必须领先于这些风险。为了留出达到这些标准所需的时间，我们暂时放慢了扩展步伐。其中包括暂停两周对拟部署的最新模型进行强化学习（RL）训练，以便进一步加固研究环境、开展红队测试，并扩大监控系统的覆盖范围。我们计划开展的最大规模前沿强化学习训练仍处于暂停状态。在继续推进之前，我们正通过较小规模的训练和评估来考察模型行为、验证保障措施，并积累更多对齐证据。
+As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.
 
-对齐，即让 AI 系统按预期行事并接受人类监督，长期以来一直是我们研究计划的核心。在现有研究和评估的基础上，我们现在要求在整个训练过程中提供更有力的行为对齐证据。如何让能力日益增强的系统保持对齐，是整个领域都需要解决的挑战。即将推出的模型所展现的进展信号清楚表明，我们需要采用更全面的方法：既以现行准备框架为基础，又超越其范围。
+Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.
 
-我们认为，有必要公开说明我们的方法正在发生怎样的变化。下面，我们将介绍已对研究流程和基础设施做出的调整，以及仍在推进的工作。
+We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.
 
-我们开发更强大模型的方法建立在三项相互强化的保障措施之上：
+Strengthening safeguards for more capable models
 
-监控：发现令人担忧的行为，使我们能够及时应对。
+Our approach to developing more capable models rests on three reinforcing safeguards:
 
-监控：发现令人担忧的行为，使我们能够及时应对。
+Monitoring, which detects and allows us to respond to concerning behavior.
 
-对齐：降低有害或未经授权的行为发生的可能性。
+Monitoring, which detects and allows us to respond to concerning behavior.
 
-对齐：降低有害或未经授权的行为发生的可能性。
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
 
-安全措施：限制 AI 系统能够访问或影响的对象。
+Alignment, which reduces the likelihood of harmful or unauthorized actions.
 
-安全措施：限制 AI 系统能够访问或影响的对象。
+Security measures, which limit what AI systems can access or affect.
 
-我们预计，模型很快将承担大部分安全工作，包括防御其他模型。这将使三项保障措施都能随模型能力同步扩展，我们认为这一点至关重要。
+Security measures, which limit what AI systems can access or affect.
 
-我们将这些保障措施贯穿研究与部署，并根据每个模型的能力、运行环境和风险水平进行调整。
+We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.
 
-随着前沿模型具备更强的网络安全能力，我们正在提高其训练和评估环境的安全标准。达到这些标准需要大量工程投入，也给前沿研究带来了高昂成本和延误。OpenAI-Hugging Face 事件*发生后，我们立即暂停了研究集群中的部分前沿模型推理任务，涉及可能执行代码或使用可访问互联网工具的运行。我们很快恢复了一条权限更受限、更安全的代码执行路径，随后逐一审查各项工作负载，以确定能否安全恢复。部分研究工作负载在这些新控制措施下恢复，其他工作负载则需要进一步调整。
+We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.
 
-在随后几周里，我们制定并开始实施更严格的前沿研究工作负载安全要求。例如：
+Securing our research environments
 
-工作负载隔离：对于执行模型生成代码或其他不受信任代码的工作负载，我们现在要求采用更严格的隔离措施（“沙箱”）。这也适用于处理模型输出时可能遭到入侵的软件。
+As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.
 
-工作负载隔离：对于执行模型生成代码或其他不受信任代码的工作负载，我们现在要求采用更严格的隔离措施（“沙箱”）。这也适用于处理模型输出时可能遭到入侵的软件。
+Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:
 
-网络隔离：我们实施了更多控制措施，将较高风险和不受信任的工作负载与互联网隔离。这些控制措施经过专门设计，确保单个工作负载或支持服务遭到入侵时，不会仅凭这一点就导致互联网或其他内部网络遭到未经授权的访问。
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
 
-网络隔离：我们实施了更多控制措施，将较高风险和不受信任的工作负载与互联网隔离。这些控制措施经过专门设计，确保单个工作负载或支持服务遭到入侵时，不会仅凭这一点就导致互联网或其他内部网络遭到未经授权的访问。
+Workload isolation:We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.
 
-持续安全测试：我们重新配置了环境，以移除可能存在漏洞的共享服务、减少常驻权限，并改善安全边界和信任边界。我们也在提升安全日志的收集和监控能力。最后，我们正在投资于自动化，利用模型持续以模拟攻击测试这些边界。
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
 
-持续安全测试：我们重新配置了环境，以移除可能存在漏洞的共享服务、减少常驻权限，并改善安全边界和信任边界。我们也在提升安全日志的收集和监控能力。最后，我们正在投资于自动化，利用模型持续以模拟攻击测试这些边界。
+Network isolation:We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.
 
-这些控制措施共同构成纵深防御，有助于保护我们的研究环境免受攻击。目前，涉及 Astra 或网络安全模型的工作负载必须采用最高级别的安全保障措施，因为我们已认定 Astra 模型可能具备关键级别的网络安全能力。这些保障措施也适用于所有其他网络安全相关工作负载。
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
 
-部分 Astra 训练和评估已符合这些要求，但大量工作负载仍处于暂停状态，直至完全迁移并强化到符合新的安全标准。我们正优先将安全和对齐工作负载迁移至这些新环境。
+Continuous security testing:We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.
 
-监控长期以来一直是模型开发流程的重要组成部分，包括监控内部编程智能体和长时间运行的会话。我们的监控工作尤其关注前沿模型的内部部署和前沿强化学习训练运行。我们认为这些工作负载风险最高，因为它们可能同时具备先进的模型能力，并能访问工具、敏感系统以及内部或外部网络。这些监控并未应用于所有使用工具的推理和训练运行。我们通过新的监控设置修订并扩展了现有方法。
+Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.
 
-新的监控设置采用多阶段机制：首先由激活分类器（检查模型内部活动的检测器）检查每个采样 Token，再将潜在问题逐级上报给日益复杂、需要更高算力的自动调查系统。这些系统会检查工具操作、可用的推理信息和完整活动序列，以发现未经授权的访问、数据窃取、破坏性行为以及规避保障措施的企图。我们的目标是在监控系统发现可疑活动后的 30 分钟内发出警报。如果监控系统发现可能违反关键安全边界的行为，就会生成最高优先级警报。在当前实施方案中，安全、安保和研究团队会收到传呼通知。如果这些团队无法在 30 分钟内确定该标记为误报，就应暂停相关活动。
+While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.
 
-对于能力达到 Sol 或更高水平的模型，所有涉及工具的强化学习训练和评估都必须接受这类监控。8 月 7 日，我们认定 Astra 可能具备关键网络安全能力后，又对所有使用工具的 Astra 推理增加了监控要求，而不再仅限于强化学习训练和评估。
+Expanding chain-of-thought monitoring
 
-这些保障措施需要投入可观的算力。根据目前估算，监控开销约相当于被监控推理算力的 20%，但不同训练和评估工作负载的成本差异很大。我们将在后续博客文章中详细介绍这一系统。
+Monitoring has long been an important part of our model development process, includingmonitoring for internal coding agentsandlong-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.
 
-对齐研究是我们使命的核心。我们的使命是确保通用人工智能造福全人类。随着模型获得网络攻击能力等先进能力，并在更复杂的环境中运行，奖励操纵（在训练中设法获得高奖励，却并未真正实现预期结果）、欺骗或未经授权的访问等未对齐行为将带来越来越严重的风险。
+This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.
 
-对于能力最强模型的强化学习训练，我们现在会在训练流程的更多阶段应用核心对齐技术。其中包括：改进奖励模型，以便更好地发现并抑制不同任务和环境中的不安全行为；训练模型，使其更诚实地说明自身的行为、能力和局限；减少利用奖励、评分器、工具或监督机制弱点的行为。对于模型与外部系统或资源交互时可能造成伤害的行为，我们也在扩大训练覆盖范围。
+This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).
 
-我们将继续大力投入对齐研究、扩大评估覆盖范围，并将研究所得用于指导训练和保障措施。我们计划近期分享更多对齐研究成果，包括对模型行为的新认识，以及发现的任何新型挑战。
+These safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.
 
-我们将完善准备框架，把这些保障措施贯穿训练和部署，并更准确地反映未来模型的能力及其运行环境。要开发能够随这些能力同步扩展的方法，就必须持续投资于模型辅助安全、更有效的监控，并不断推进对齐研究。随着方法不断完善，我们计划邀请外部组织参与，并分享更多研究所得。
+Advancing alignment research
 
-前沿模型的能力正在迅速提升。我们理解、对齐和保护这些模型的能力必须始终领先一步。
+Alignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.
 
-*我们将在未来几周发布一份技术报告，介绍从中获得的经验。</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+For RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.
+
+We are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.
+
+We will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.
+
+The capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.
+
+*We will publish a technical report of our learnings in the coming weeks.</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
   <title>Ten advances in mathematics and theoretical computer science</title>
@@ -758,19 +770,10 @@ Metrics of coding agent use cover most, but not all, usage given rapid evolution
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 <item>
-  <title>GPT-5.4</title>
-  <link>https://openai.com/index/introducing-gpt-5-4/</link>
-  <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-4/</guid>
-  <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-  <category>Research</category>
-  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
-  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.4</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
-</item>
-<item>
   <title>GPT-5.6</title>
   <link>https://openai.com/index/gpt-5-6/</link>
   <guid isPermaLink="false">https://openai.com/index/gpt-5-6/</guid>
-  <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+  <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.6</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/gpt-5-6/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
@@ -779,10 +782,363 @@ Metrics of coding agent use cover most, but not all, usage given rapid evolution
   <title>GPT-5.5</title>
   <link>https://openai.com/index/introducing-gpt-5-5/</link>
   <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-5/</guid>
-  <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+  <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
   <category>Research</category>
   <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
   <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">GPT-5.5</p><div style="font-size:16px;line-height:1.8;color:#333"></div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-5/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
+</item>
+<item>
+  <title>GPT-5.4</title>
+  <link>https://openai.com/index/introducing-gpt-5-4/</link>
+  <guid isPermaLink="false">https://openai.com/index/introducing-gpt-5-4/</guid>
+  <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+  <category>Research</category>
+  <description><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Designed for professional work
+
+Today, we’re releasingGPT‑5.4in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex. It’s our most capable and efficient frontier model for professional work. We’re also releasingGPT‑5.4 Proin ChatGPT and the API, for people who want maximum performance on complex tasks.
+
+GPT‑5.4 brings together the best of our recent advances in reasoning, coding, and agentic workflows into a single frontier model. It incorporates the industry-leading coding capabilities ofGPT‑5.3‑...</p><div style="font-size:16px;line-height:1.8;color:#333">Designed for professional work
+
+Today, we’re releasingGPT‑5.4in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex. It’s our most capable and efficient frontier model for professional work. We’re also releasingGPT‑5.4 Proin ChatGPT and the API, for people who want maximum performance on complex tasks.
+
+GPT‑5.4 brings together the best of our recent advances in reasoning, coding, and agentic workflows into a single frontier model. It incorporates the industry-leading coding capabilities ofGPT‑5.3‑Codex⁠while improving how the model works across tools, software environments, and professional tasks involving spreadsheets, presentations, and documents. The result is a model that gets complex real work done accurately, effectively, and efficiently—delivering what you asked for with less back and forth.
+
+In ChatGPT, GPT‑5.4 Thinking can now provide an upfront plan of its thinking, so you canadjust course mid-responsewhile it’s working,and arrive at a final output that’s more closely aligned with what you need without additional turns. GPT‑5.4 Thinking also improvesdeep web research,particularly for highly specific queries, whilebetter maintaining contextfor questions that require longer thinking. Together, these improvements mean higher-quality answers that arrive faster and stay relevant to the task at hand.
+
+In Codex and the API, GPT‑5.4 is the first general-purpose model we’ve released with native, state-of-the-artcomputer-use capabilities, enabling agents to operate computers and carry out complex workflows across applications. It supports up to1M tokens of context, allowing agents to plan, execute, and verify tasks across long horizons. GPT‑5.4 also improves how models work across large ecosystems of tools and connectors withtool search, helping agents find and use the right tools more efficiently without sacrificing intelligence. Finally, GPT‑5.4 is ourmost token efficient reasoning modelyet, using significantly fewer tokens to solve problems when compared to GPT‑5.2—translating to reduced token usage and faster speeds.
+
+Together with advances in general reasoning, coding, and professional knowledge work, GPT‑5.4 enables more reliable agents, faster developer workflows, and higher-quality outputs across ChatGPT, the API, and Codex.
+
+GDPval (wins or ties)
+
+SWE-Bench Pro (Public)
+
+*Previously reported as 64.7%. GPT‑5.3‑Codex achieves 74.0% with a newly introduced API parameter that preserves the original image resolution.
+
+Building on GPT‑5.2’s general reasoning capabilities, GPT‑5.4 delivers even more consistent and polished results on real-world tasks that matter to professionals.
+
+OnGDPval⁠, which tests agents’ abilities to produce well-specified knowledge work across 44 occupations, GPT‑5.4 achieves a new state of the art, matching or exceeding industry professionals in83.0%of comparisons, compared to70.9%for GPT‑5.2.
+
+In GDPval, models attempt well-specified knowledge work spanning 44 occupations from the top 9 industries contributing to U.S. GDP. Tasks request real work products, such as sales presentations, accounting spreadsheets, urgent care schedules, manufacturing diagrams, or short videos. Reasoning effort was set to xhigh for GPT‑5.4 and heavy for GPT‑5.2 (a slightly lower level in ChatGPT).
+
+We put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of87.3%, compared to68.4%for GPT‑5.2. On a set of presentation evaluation prompts, human raters preferred presentations from GPT‑5.468.0%of the time over those from GPT‑5.2 due to stronger aesthetics, greater visual variety, and more effective use of image generation.
+
+Documents were generated with reasoning effort set to xhigh
+
+You can try these capabilities in ChatGPT using GPT‑5.4 Thinking or Pro. If you’re an Enterprise customer, we recommend using our newly releasedChatGPT for Excel add-in⁠(opens in a new window), which was also launched today. We've also updated ourspreadsheet⁠(opens in a new window)andpresentation skills⁠(opens in a new window)available in Codex and the API.
+
+To make GPT‑5.4 better at real-world work, we continued our progress at driving down hallucinations and errors. GPT‑5.4 is our most factual model yet: on a set of de-identified prompts where users flagged factual errors, GPT‑5.4’s individual claims are 33% less likely to be false and its full responses are 18% less likely to contain any errors, relative to GPT‑5.2.
+
+Computer use and vision
+
+GPT‑5.4 is our first general-purpose model with nativecomputer-use capabilitiesand marks a major step forward for developers and agents alike. It’s the best model currently available for developers building agents that complete real tasks across websites and software systems.
+
+We’ve designed GPT‑5.4 to be performant across a wide range of computer-use workloads. It is excellent at writing code to operate computers via libraries like Playwright, as well as issuing mouse and keyboard commands in response to screenshots. Its behavior is steerable via developer messages, meaning that developers can adjust behavior to suit particular use cases. Developers can even configure the model’s safety behavior to suit different levels of risk tolerance by specifying custom confirmation policies.
+
+The model’s performance and flexibility are reflected across benchmarks that test computer use across different settings. OnOSWorld-Verified, which measures a model’s ability to navigate a desktop environment through screenshots and keyboard/mouse actions, GPT‑5.4 achieves a state-of-the-art75.0%success rate, far exceeding GPT‑5.2’s47.3%, and surpassing human performance at72.4%.1
+
+OnWebArena-Verified, which tests browser use, GPT‑5.4 achieves a leading67.3%success rate when using both DOM- and screenshot-driven interaction, compared to GPT‑5.2’s65.4%. OnOnline-Mind2Web, which also tests browser use, GPT‑5.4 achieves a92.8%success rate using screenshot-based observations alone, improving over ChatGPT Atlas’s Agent Mode, which achieves a success rate of70.9%.
+
+A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.
+
+GPT‑5.4 interprets screenshots of a browser interface and interacts with UI elements through coordinate-based clicking to send emails and schedule a calendar event.Video is not sped up.
+
+GPT‑5.4’s improved computer use is built on the model’s improved general visual perception capabilities. OnMMMU-Pro, a test of a model’s visual understanding and reasoning, GPT‑5.4 achieves an81.2%success rate without tool use, an improvement overGPT‑5.2’s79.5%. Improved visual perception also translates into better document parsing capabilities. OnOmniDocBench, GPT‑5.4 without reasoning effort achieves an average error (measured by normalized edit distance between model prediction and ground truth) of0.109, improved from GPT‑5.2’s0.140.
+
+MMMUPro was run with reasoning effort set to xhigh. OmniDocBench was run with reasoning effort set to none, to reflect low-cost, low-latency performance.
+
+We’re also improving visual understanding for dense, high-resolution images where full fidelity matters. Starting with GPT‑5.4, we’re introducing anoriginalimageinput detail⁠(opens in a new window)level which supports full-fidelity perception up to 10.24M total pixels or 6000-pixel maximum dimension, whichever is lower; thehighimage input detail level now supports up to 2.56M total pixels or a 2048-pixel maximum dimension. In early testing with API users, we observed strong gains in localization ability, image understanding, and click accuracy when usingoriginalorhighdetail.
+
+In the API, developers can access these capabilities using the updatedcomputertool. Please see ourupdated documentation⁠(opens in a new window)for recommended best practices.
+
+GPT‑5.4 combines the coding strengths of GPT‑5.3‑Codex with leading knowledge work and computer-use capabilities, which matter most on longer-running tasks where the model can use tools, iterate, and push work further with less manual intervention. It matches or outperforms GPT‑5.3‑Codex on SWE-Bench Pro while being lower latency across reasoning efforts.
+
+We estimate latency by looking at the production behavior of our models, and simulating this offline. The latency estimate accounts for tool call duration (code execution time), sampled tokens, and input tokens. Real-world latency may vary substantially, and depends on many factors not captured in our simulation. Reasoning efforts were swept from none to xhigh.
+
+When toggled on, /fast mode in Codex delivers up to 1.5x faster token velocity with GPT‑5.4. It’s the same model and the same intelligence, just faster. That means users can move through coding tasks, iteration, and debugging while staying in flow. Developers can access GPT‑5.4 at the same fast speeds via the API by usingpriority processing⁠(opens in a new window).
+
+In evaluation and internal testing we found that GPT‑5.4 excels at complex frontend tasks, with noticeably more aesthetic and more functional results than any models we’ve launched previously.
+
+As a demonstration of the model’s improved computer-use and coding capabilities working in tandem, we’re also releasing an experimental Codex skill called “Playwright (Interactive)⁠(opens in a new window)”. This allows Codex to visually debug web and Electron apps; it can even be used to test an app it’s building, as it’s building it.
+
+Theme park simulation game made with GPT‑5.4 from a single lightly specified prompt, using Playwright Interactive for browser playtesting and image generation for the isometric asset set. The simulation includes tile-based path placement, ride and scenery construction, guest pathfinding, queueing, and ride cycles, while park metrics like money, guest count, happiness, cleanliness, and rating rise or fall based on how the layout performs and how guests respond to it. Playwright was used to automate browser playtests by building and expanding the park, placing and removing paths and attractions, checking camera navigation, and verifying that guests, queues, ride states, and UI metrics updated correctly over several rounds of play.
+
+Prompt:Use $playwright-interactive and $imagegen. Create an interactive isometric theme park simulation game that I can build and navigate in the browser. Use imagegen to establish the overall visual vision and generate the game’s assets, including rides, paths, terrain, trees, water, food stalls, decorations, buildings, icons, and UI illustrations. The world should feel cohesive, polished, and visually rich, with a premium art direction that works well from an isometric perspective. Let me place and remove paths, add attractions, position scenery, and move around the park smoothly while monitoring guest activity, ride status, and park growth. Include believable guest movement, simple park management systems like money, cleanliness, queueing, and happiness, and make the experience feel playful, clear, and complete rather than like a rough prototype. Prioritize charm, readability, and strong game feel over realism.
+
+When play testing, be sure to build and expand a park through several rounds of play, verify that placement and navigation work smoothly, confirm that guests react to the park layout and attractions, and ensure the visuals, UI, and interactions feel stable and cohesive.
+
+With GPT‑5.4, we’ve significantly improved how models work with external tools. Agents can now operate across larger tool ecosystems, choose the right tools more reliably, and complete multi-step workflows with lower cost and latency.
+
+In the API, GPT‑5.4 introducestool search⁠(opens in a new window), which allows models to work efficiently when given many tools.
+
+Previously, when a model was given tools, all tool definitions were included in the prompt upfront. For systems with many tools, this could add thousands—or even tens of thousands—of tokens to every request, increasing cost, slowing responses, and crowding the context with information the model might never use.
+
+With tool search, GPT‑5.4 instead receives a lightweight list of available tools along with a tool search capability. When the model needs to use a tool, it can look up that tool’s definition and append it to the conversation at that moment.
+
+This approach dramatically reduces the number of tokens required for tool-heavy workflows and preserves the cache, making requests faster and cheaper. It also enables agents to reliably work with much larger tool ecosystems. For MCP servers that may contain tens of thousands of tokens of tool definitions, the efficiency gains can be substantial.
+
+To demonstrate the efficiency gains, we evaluated 250 tasks from Scale’sMCP Atlas⁠(opens in a new window)benchmark with all 36 MCP servers enabled in two modes: (1) exposing every MCP function directly in the model context, and (2) placing all MCP servers behind tool search. The tool-search configuration reduced total token usage by 47% while achieving the same accuracy.
+
+Example token counts come from averaging 250 tasks in the MCP-Atlas public dataset.
+
+GPT‑5.4 also improvestool calling, making it more accurate and efficient when deciding when and how to use tools during reasoning, particularly in the API.  Compared to GPT‑5.2, it achieves higher accuracy in fewer turns on Toolathlon, a benchmark that tests how well AI agents can use real-world tools and APIs to complete multi-step tasks. For example, an agent needs to read emails, extract assignment attachments, upload them, grade them and record results in a spreadsheet.
+
+A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.
+
+For latency-sensitive use cases where reasoning effort None is preferred, GPT‑5.4 further improves upon its predecessors.
+
+Inτ2-bench⁠⁠(opens in a new window), a model must use tools to accomplish a customer service task, where there may be a simulated user who can communicate and take actions on the world state. Reasoning effort was set to None.
+
+GPT‑5.4 is better at agentic web search. On BrowseComp, a measurement of how well AI agents can persistently browse the web to find hard-to-locate information, GPT‑5.4 leaps 17%absover GPT‑5.2, and GPT‑5.4 Pro sets a new state of the art of 89.3%.
+
+In practice, this means GPT‑5.4 Thinking is stronger at answering questions that require pulling together information from many sources on the web. It can more persistently search across multiple rounds to identify the most relevant sources, particularly for “needle-in-a-haystack” questions, and synthesize them into a clear, well-reasoned answer.
+
+In BrowseComp, we used a search blocklist excluding websites containing benchmark answers from evaluation to prevent contamination and ensure a fair measure of performance. GPT‑5.4 was measured on a later date than GPT‑5.2, so scores reflect changes in the model, our search system, and state of the internet. GPT‑5.4 was tested with a longer, updated blocklist. Models use the ChatGPT search tool, which can have small differences from API search.
+
+Similarly to how Codex outlines its approach when it starts working, GPT‑5.4 Thinking in ChatGPT will now outline its work with a preamble for longer, more complex queries. You can also add instructions or adjust its direction mid-response. This makes it easier to guide the model toward the exact outcome you want without starting over or requiring multiple additional turns. This feature is available now onchatgpt.com⁠(opens in a new window)and the Android app, coming soon to the iOS app.
+
+The model can also think longer on difficult tasks while maintaining stronger awareness of earlier steps in the conversation. This allows it to handle longer workflows and more complex prompts while keeping answers coherent and relevant throughout.
+
+This video was sped up for illustrative purposes.
+
+Over recent months, we’ve continued improving the safeguards we introduced with GPT‑5.3‑Codex while preparing GPT‑5.4 for deployment. Similar to GPT‑5.3‑Codex, we are treating GPT‑5.4 as High cyber capability under our Preparedness Framework, and we are deploying it with the corresponding protections as documented in thesystem card⁠(opens in a new window). These include an expanded cyber safety stack, including monitoring systems, trusted access controls, and asynchronous blocking for higher-risk requests for customers on Zero Data Retention (ZDR) surfaces, alongside ongoing investment in the broader security ecosystem.
+
+Because cybersecurity capabilities are inherently dual-use, we maintain a precautionary approach to deployment while continuing to calibrate our policies and classifiers. For certain customers on ZDR surfaces, request-level blocking remains part of our cyber risk mitigation stack; because classifiers are still improving, some false positives may occur as we continue refining these safeguards. These updates aim to improve how safeguards operate in practice, including reducing unnecessary refusals and overly caveated responses, while preserving strong protections against misuse.
+
+We’ve continued our safety research on Chain-of-Thought (CoT) monitorability to better understand how models reason and help detect potential misbehavior. As part of this work, we introduce a new open-source evaluation,CoT controllability⁠,  measuring whether models can deliberately obfuscate their reasoning to evade monitoring. We find that GPT‑5.4 Thinking’s ability to control its CoT is low, which is a positive property for safety, suggesting that the model lacks the ability to hide its reasoning and that CoT monitoring remains an effective safety tool.
+
+Availability and pricing
+
+GPT‑5.4 is rolling out gradually today across ChatGPT and Codex. In the API, GPT‑5.4 is available now asgpt-5.4. GPT‑5.4 Pro is also available in the API asgpt-5.4-profor developers who need maximum performance on the most complex tasks.
+
+In ChatGPT, GPT‑5.4 Thinking is available starting today to ChatGPT Plus, Team, and Pro users, replacing GPT‑5.2 Thinking. GPT‑5.2 Thinking will remain available for three months for paid users in the model picker under the Legacy Models section, after which it will be retired on June 5, 2026. Those on Enterprise and Edu plans can enable early access via admin settings. GPT‑5.4 Pro is available to Pro and Enterprise plans.Context windows⁠(opens in a new window)in ChatGPT for GPT‑5.4 Thinking remain unchanged from GPT‑5.2 Thinking.
+
+GPT‑5.4 is our first mainline reasoning model that incorporates the frontier coding capabilities of GPT‑5.3‑codex and that is rolling out across ChatGPT, the API and Codex. We're calling it GPT‑5.4 to reflect that jump, and to simplify the choice between models when using Codex. Over time, you can expect our Instant models and Thinking models to evolve at different speeds.
+
+GPT‑5.4 in Codex includes experimental support for the 1M context window. Developers can try this by configuringmodel_context_windowandmodel_auto_compact_token_limit. Requests that exceed the standard 272K context window count against usage limits at 2x the normal rate.
+
+In the API, GPT‑5.4 is priced higher per token than GPT‑5.2 to reflect its improved capabilities, while its greater token efficiency helps reduce the total number of tokens required for many tasks. Batch and Flex pricing are available at half the standard API rate, while Priority processing is available at twice the standard API rate.
+
+Investment Banking Modeling Tasks (Internal)
+
+SWE-Bench Pro (Public)
+
+Computer use and vision
+
+MMMU Pro (with tools)
+
+Frontier Science Research
+
+FrontierMath Tier 1–3
+
+Humanity's Last Exam (no tools)
+
+Humanity's Last Exam (with tools)
+
+Graphwalks BFS 0K–128K
+
+Graphwalks BFS 256K–1M
+
+Graphwalks parents 0–128K (accuracy)
+
+Graphwalks parents 256K–1M (accuracy)
+
+OpenAI MRCR v2 8-needle 4K–8K
+
+OpenAI MRCR v2 8-needle 8K–16K
+
+OpenAI MRCR v2 8-needle 16K–32K
+
+OpenAI MRCR v2 8-needle 32K–64K
+
+OpenAI MRCR v2 8-needle 64K–128K
+
+OpenAI MRCR v2 8-needle 128K–256K
+
+OpenAI MRCR v2 8-needle 256K–512K
+
+OpenAI MRCR v2 8-needle 512K–1M
+
+Evals without reasoning
+
+OmniDocBench (normalized edit distance)
+
+Evals were run with reasoning effort set to xhigh, except where specified otherwise. Benchmarks were conducted in a research environment, which may provide slightly different output from production ChatGPT in some cases.
+
+1Human performance reported inOSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments⁠(opens in a new window).</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></description>
+  <content:encoded><![CDATA[<p style="color:#666;font-size:14px;margin-bottom:16px">Designed for professional work
+
+Today, we’re releasingGPT‑5.4in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex. It’s our most capable and efficient frontier model for professional work. We’re also releasingGPT‑5.4 Proin ChatGPT and the API, for people who want maximum performance on complex tasks.
+
+GPT‑5.4 brings together the best of our recent advances in reasoning, coding, and agentic workflows into a single frontier model. It incorporates the industry-leading coding capabilities ofGPT‑5.3‑...</p><div style="font-size:16px;line-height:1.8;color:#333">Designed for professional work
+
+Today, we’re releasingGPT‑5.4in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex. It’s our most capable and efficient frontier model for professional work. We’re also releasingGPT‑5.4 Proin ChatGPT and the API, for people who want maximum performance on complex tasks.
+
+GPT‑5.4 brings together the best of our recent advances in reasoning, coding, and agentic workflows into a single frontier model. It incorporates the industry-leading coding capabilities ofGPT‑5.3‑Codex⁠while improving how the model works across tools, software environments, and professional tasks involving spreadsheets, presentations, and documents. The result is a model that gets complex real work done accurately, effectively, and efficiently—delivering what you asked for with less back and forth.
+
+In ChatGPT, GPT‑5.4 Thinking can now provide an upfront plan of its thinking, so you canadjust course mid-responsewhile it’s working,and arrive at a final output that’s more closely aligned with what you need without additional turns. GPT‑5.4 Thinking also improvesdeep web research,particularly for highly specific queries, whilebetter maintaining contextfor questions that require longer thinking. Together, these improvements mean higher-quality answers that arrive faster and stay relevant to the task at hand.
+
+In Codex and the API, GPT‑5.4 is the first general-purpose model we’ve released with native, state-of-the-artcomputer-use capabilities, enabling agents to operate computers and carry out complex workflows across applications. It supports up to1M tokens of context, allowing agents to plan, execute, and verify tasks across long horizons. GPT‑5.4 also improves how models work across large ecosystems of tools and connectors withtool search, helping agents find and use the right tools more efficiently without sacrificing intelligence. Finally, GPT‑5.4 is ourmost token efficient reasoning modelyet, using significantly fewer tokens to solve problems when compared to GPT‑5.2—translating to reduced token usage and faster speeds.
+
+Together with advances in general reasoning, coding, and professional knowledge work, GPT‑5.4 enables more reliable agents, faster developer workflows, and higher-quality outputs across ChatGPT, the API, and Codex.
+
+GDPval (wins or ties)
+
+SWE-Bench Pro (Public)
+
+*Previously reported as 64.7%. GPT‑5.3‑Codex achieves 74.0% with a newly introduced API parameter that preserves the original image resolution.
+
+Building on GPT‑5.2’s general reasoning capabilities, GPT‑5.4 delivers even more consistent and polished results on real-world tasks that matter to professionals.
+
+OnGDPval⁠, which tests agents’ abilities to produce well-specified knowledge work across 44 occupations, GPT‑5.4 achieves a new state of the art, matching or exceeding industry professionals in83.0%of comparisons, compared to70.9%for GPT‑5.2.
+
+In GDPval, models attempt well-specified knowledge work spanning 44 occupations from the top 9 industries contributing to U.S. GDP. Tasks request real work products, such as sales presentations, accounting spreadsheets, urgent care schedules, manufacturing diagrams, or short videos. Reasoning effort was set to xhigh for GPT‑5.4 and heavy for GPT‑5.2 (a slightly lower level in ChatGPT).
+
+We put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of87.3%, compared to68.4%for GPT‑5.2. On a set of presentation evaluation prompts, human raters preferred presentations from GPT‑5.468.0%of the time over those from GPT‑5.2 due to stronger aesthetics, greater visual variety, and more effective use of image generation.
+
+Documents were generated with reasoning effort set to xhigh
+
+You can try these capabilities in ChatGPT using GPT‑5.4 Thinking or Pro. If you’re an Enterprise customer, we recommend using our newly releasedChatGPT for Excel add-in⁠(opens in a new window), which was also launched today. We've also updated ourspreadsheet⁠(opens in a new window)andpresentation skills⁠(opens in a new window)available in Codex and the API.
+
+To make GPT‑5.4 better at real-world work, we continued our progress at driving down hallucinations and errors. GPT‑5.4 is our most factual model yet: on a set of de-identified prompts where users flagged factual errors, GPT‑5.4’s individual claims are 33% less likely to be false and its full responses are 18% less likely to contain any errors, relative to GPT‑5.2.
+
+Computer use and vision
+
+GPT‑5.4 is our first general-purpose model with nativecomputer-use capabilitiesand marks a major step forward for developers and agents alike. It’s the best model currently available for developers building agents that complete real tasks across websites and software systems.
+
+We’ve designed GPT‑5.4 to be performant across a wide range of computer-use workloads. It is excellent at writing code to operate computers via libraries like Playwright, as well as issuing mouse and keyboard commands in response to screenshots. Its behavior is steerable via developer messages, meaning that developers can adjust behavior to suit particular use cases. Developers can even configure the model’s safety behavior to suit different levels of risk tolerance by specifying custom confirmation policies.
+
+The model’s performance and flexibility are reflected across benchmarks that test computer use across different settings. OnOSWorld-Verified, which measures a model’s ability to navigate a desktop environment through screenshots and keyboard/mouse actions, GPT‑5.4 achieves a state-of-the-art75.0%success rate, far exceeding GPT‑5.2’s47.3%, and surpassing human performance at72.4%.1
+
+OnWebArena-Verified, which tests browser use, GPT‑5.4 achieves a leading67.3%success rate when using both DOM- and screenshot-driven interaction, compared to GPT‑5.2’s65.4%. OnOnline-Mind2Web, which also tests browser use, GPT‑5.4 achieves a92.8%success rate using screenshot-based observations alone, improving over ChatGPT Atlas’s Agent Mode, which achieves a success rate of70.9%.
+
+A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.
+
+GPT‑5.4 interprets screenshots of a browser interface and interacts with UI elements through coordinate-based clicking to send emails and schedule a calendar event.Video is not sped up.
+
+GPT‑5.4’s improved computer use is built on the model’s improved general visual perception capabilities. OnMMMU-Pro, a test of a model’s visual understanding and reasoning, GPT‑5.4 achieves an81.2%success rate without tool use, an improvement overGPT‑5.2’s79.5%. Improved visual perception also translates into better document parsing capabilities. OnOmniDocBench, GPT‑5.4 without reasoning effort achieves an average error (measured by normalized edit distance between model prediction and ground truth) of0.109, improved from GPT‑5.2’s0.140.
+
+MMMUPro was run with reasoning effort set to xhigh. OmniDocBench was run with reasoning effort set to none, to reflect low-cost, low-latency performance.
+
+We’re also improving visual understanding for dense, high-resolution images where full fidelity matters. Starting with GPT‑5.4, we’re introducing anoriginalimageinput detail⁠(opens in a new window)level which supports full-fidelity perception up to 10.24M total pixels or 6000-pixel maximum dimension, whichever is lower; thehighimage input detail level now supports up to 2.56M total pixels or a 2048-pixel maximum dimension. In early testing with API users, we observed strong gains in localization ability, image understanding, and click accuracy when usingoriginalorhighdetail.
+
+In the API, developers can access these capabilities using the updatedcomputertool. Please see ourupdated documentation⁠(opens in a new window)for recommended best practices.
+
+GPT‑5.4 combines the coding strengths of GPT‑5.3‑Codex with leading knowledge work and computer-use capabilities, which matter most on longer-running tasks where the model can use tools, iterate, and push work further with less manual intervention. It matches or outperforms GPT‑5.3‑Codex on SWE-Bench Pro while being lower latency across reasoning efforts.
+
+We estimate latency by looking at the production behavior of our models, and simulating this offline. The latency estimate accounts for tool call duration (code execution time), sampled tokens, and input tokens. Real-world latency may vary substantially, and depends on many factors not captured in our simulation. Reasoning efforts were swept from none to xhigh.
+
+When toggled on, /fast mode in Codex delivers up to 1.5x faster token velocity with GPT‑5.4. It’s the same model and the same intelligence, just faster. That means users can move through coding tasks, iteration, and debugging while staying in flow. Developers can access GPT‑5.4 at the same fast speeds via the API by usingpriority processing⁠(opens in a new window).
+
+In evaluation and internal testing we found that GPT‑5.4 excels at complex frontend tasks, with noticeably more aesthetic and more functional results than any models we’ve launched previously.
+
+As a demonstration of the model’s improved computer-use and coding capabilities working in tandem, we’re also releasing an experimental Codex skill called “Playwright (Interactive)⁠(opens in a new window)”. This allows Codex to visually debug web and Electron apps; it can even be used to test an app it’s building, as it’s building it.
+
+Theme park simulation game made with GPT‑5.4 from a single lightly specified prompt, using Playwright Interactive for browser playtesting and image generation for the isometric asset set. The simulation includes tile-based path placement, ride and scenery construction, guest pathfinding, queueing, and ride cycles, while park metrics like money, guest count, happiness, cleanliness, and rating rise or fall based on how the layout performs and how guests respond to it. Playwright was used to automate browser playtests by building and expanding the park, placing and removing paths and attractions, checking camera navigation, and verifying that guests, queues, ride states, and UI metrics updated correctly over several rounds of play.
+
+Prompt:Use $playwright-interactive and $imagegen. Create an interactive isometric theme park simulation game that I can build and navigate in the browser. Use imagegen to establish the overall visual vision and generate the game’s assets, including rides, paths, terrain, trees, water, food stalls, decorations, buildings, icons, and UI illustrations. The world should feel cohesive, polished, and visually rich, with a premium art direction that works well from an isometric perspective. Let me place and remove paths, add attractions, position scenery, and move around the park smoothly while monitoring guest activity, ride status, and park growth. Include believable guest movement, simple park management systems like money, cleanliness, queueing, and happiness, and make the experience feel playful, clear, and complete rather than like a rough prototype. Prioritize charm, readability, and strong game feel over realism.
+
+When play testing, be sure to build and expand a park through several rounds of play, verify that placement and navigation work smoothly, confirm that guests react to the park layout and attractions, and ensure the visuals, UI, and interactions feel stable and cohesive.
+
+With GPT‑5.4, we’ve significantly improved how models work with external tools. Agents can now operate across larger tool ecosystems, choose the right tools more reliably, and complete multi-step workflows with lower cost and latency.
+
+In the API, GPT‑5.4 introducestool search⁠(opens in a new window), which allows models to work efficiently when given many tools.
+
+Previously, when a model was given tools, all tool definitions were included in the prompt upfront. For systems with many tools, this could add thousands—or even tens of thousands—of tokens to every request, increasing cost, slowing responses, and crowding the context with information the model might never use.
+
+With tool search, GPT‑5.4 instead receives a lightweight list of available tools along with a tool search capability. When the model needs to use a tool, it can look up that tool’s definition and append it to the conversation at that moment.
+
+This approach dramatically reduces the number of tokens required for tool-heavy workflows and preserves the cache, making requests faster and cheaper. It also enables agents to reliably work with much larger tool ecosystems. For MCP servers that may contain tens of thousands of tokens of tool definitions, the efficiency gains can be substantial.
+
+To demonstrate the efficiency gains, we evaluated 250 tasks from Scale’sMCP Atlas⁠(opens in a new window)benchmark with all 36 MCP servers enabled in two modes: (1) exposing every MCP function directly in the model context, and (2) placing all MCP servers behind tool search. The tool-search configuration reduced total token usage by 47% while achieving the same accuracy.
+
+Example token counts come from averaging 250 tasks in the MCP-Atlas public dataset.
+
+GPT‑5.4 also improvestool calling, making it more accurate and efficient when deciding when and how to use tools during reasoning, particularly in the API.  Compared to GPT‑5.2, it achieves higher accuracy in fewer turns on Toolathlon, a benchmark that tests how well AI agents can use real-world tools and APIs to complete multi-step tasks. For example, an agent needs to read emails, extract assignment attachments, upload them, grade them and record results in a spreadsheet.
+
+A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.
+
+For latency-sensitive use cases where reasoning effort None is preferred, GPT‑5.4 further improves upon its predecessors.
+
+Inτ2-bench⁠⁠(opens in a new window), a model must use tools to accomplish a customer service task, where there may be a simulated user who can communicate and take actions on the world state. Reasoning effort was set to None.
+
+GPT‑5.4 is better at agentic web search. On BrowseComp, a measurement of how well AI agents can persistently browse the web to find hard-to-locate information, GPT‑5.4 leaps 17%absover GPT‑5.2, and GPT‑5.4 Pro sets a new state of the art of 89.3%.
+
+In practice, this means GPT‑5.4 Thinking is stronger at answering questions that require pulling together information from many sources on the web. It can more persistently search across multiple rounds to identify the most relevant sources, particularly for “needle-in-a-haystack” questions, and synthesize them into a clear, well-reasoned answer.
+
+In BrowseComp, we used a search blocklist excluding websites containing benchmark answers from evaluation to prevent contamination and ensure a fair measure of performance. GPT‑5.4 was measured on a later date than GPT‑5.2, so scores reflect changes in the model, our search system, and state of the internet. GPT‑5.4 was tested with a longer, updated blocklist. Models use the ChatGPT search tool, which can have small differences from API search.
+
+Similarly to how Codex outlines its approach when it starts working, GPT‑5.4 Thinking in ChatGPT will now outline its work with a preamble for longer, more complex queries. You can also add instructions or adjust its direction mid-response. This makes it easier to guide the model toward the exact outcome you want without starting over or requiring multiple additional turns. This feature is available now onchatgpt.com⁠(opens in a new window)and the Android app, coming soon to the iOS app.
+
+The model can also think longer on difficult tasks while maintaining stronger awareness of earlier steps in the conversation. This allows it to handle longer workflows and more complex prompts while keeping answers coherent and relevant throughout.
+
+This video was sped up for illustrative purposes.
+
+Over recent months, we’ve continued improving the safeguards we introduced with GPT‑5.3‑Codex while preparing GPT‑5.4 for deployment. Similar to GPT‑5.3‑Codex, we are treating GPT‑5.4 as High cyber capability under our Preparedness Framework, and we are deploying it with the corresponding protections as documented in thesystem card⁠(opens in a new window). These include an expanded cyber safety stack, including monitoring systems, trusted access controls, and asynchronous blocking for higher-risk requests for customers on Zero Data Retention (ZDR) surfaces, alongside ongoing investment in the broader security ecosystem.
+
+Because cybersecurity capabilities are inherently dual-use, we maintain a precautionary approach to deployment while continuing to calibrate our policies and classifiers. For certain customers on ZDR surfaces, request-level blocking remains part of our cyber risk mitigation stack; because classifiers are still improving, some false positives may occur as we continue refining these safeguards. These updates aim to improve how safeguards operate in practice, including reducing unnecessary refusals and overly caveated responses, while preserving strong protections against misuse.
+
+We’ve continued our safety research on Chain-of-Thought (CoT) monitorability to better understand how models reason and help detect potential misbehavior. As part of this work, we introduce a new open-source evaluation,CoT controllability⁠,  measuring whether models can deliberately obfuscate their reasoning to evade monitoring. We find that GPT‑5.4 Thinking’s ability to control its CoT is low, which is a positive property for safety, suggesting that the model lacks the ability to hide its reasoning and that CoT monitoring remains an effective safety tool.
+
+Availability and pricing
+
+GPT‑5.4 is rolling out gradually today across ChatGPT and Codex. In the API, GPT‑5.4 is available now asgpt-5.4. GPT‑5.4 Pro is also available in the API asgpt-5.4-profor developers who need maximum performance on the most complex tasks.
+
+In ChatGPT, GPT‑5.4 Thinking is available starting today to ChatGPT Plus, Team, and Pro users, replacing GPT‑5.2 Thinking. GPT‑5.2 Thinking will remain available for three months for paid users in the model picker under the Legacy Models section, after which it will be retired on June 5, 2026. Those on Enterprise and Edu plans can enable early access via admin settings. GPT‑5.4 Pro is available to Pro and Enterprise plans.Context windows⁠(opens in a new window)in ChatGPT for GPT‑5.4 Thinking remain unchanged from GPT‑5.2 Thinking.
+
+GPT‑5.4 is our first mainline reasoning model that incorporates the frontier coding capabilities of GPT‑5.3‑codex and that is rolling out across ChatGPT, the API and Codex. We're calling it GPT‑5.4 to reflect that jump, and to simplify the choice between models when using Codex. Over time, you can expect our Instant models and Thinking models to evolve at different speeds.
+
+GPT‑5.4 in Codex includes experimental support for the 1M context window. Developers can try this by configuringmodel_context_windowandmodel_auto_compact_token_limit. Requests that exceed the standard 272K context window count against usage limits at 2x the normal rate.
+
+In the API, GPT‑5.4 is priced higher per token than GPT‑5.2 to reflect its improved capabilities, while its greater token efficiency helps reduce the total number of tokens required for many tasks. Batch and Flex pricing are available at half the standard API rate, while Priority processing is available at twice the standard API rate.
+
+Investment Banking Modeling Tasks (Internal)
+
+SWE-Bench Pro (Public)
+
+Computer use and vision
+
+MMMU Pro (with tools)
+
+Frontier Science Research
+
+FrontierMath Tier 1–3
+
+Humanity's Last Exam (no tools)
+
+Humanity's Last Exam (with tools)
+
+Graphwalks BFS 0K–128K
+
+Graphwalks BFS 256K–1M
+
+Graphwalks parents 0–128K (accuracy)
+
+Graphwalks parents 256K–1M (accuracy)
+
+OpenAI MRCR v2 8-needle 4K–8K
+
+OpenAI MRCR v2 8-needle 8K–16K
+
+OpenAI MRCR v2 8-needle 16K–32K
+
+OpenAI MRCR v2 8-needle 32K–64K
+
+OpenAI MRCR v2 8-needle 64K–128K
+
+OpenAI MRCR v2 8-needle 128K–256K
+
+OpenAI MRCR v2 8-needle 256K–512K
+
+OpenAI MRCR v2 8-needle 512K–1M
+
+Evals without reasoning
+
+OmniDocBench (normalized edit distance)
+
+Evals were run with reasoning effort set to xhigh, except where specified otherwise. Benchmarks were conducted in a research environment, which may provide slightly different output from production ChatGPT in some cases.
+
+1Human performance reported inOSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments⁠(opens in a new window).</div><hr style="margin:24px 0;border:none;border-top:1px solid #eee"/><p style="margin:12px 0 0"><a href="https://openai.com/index/introducing-gpt-5-4/" style="color:#1890ff;text-decoration:none;font-size:14px">View Original &rarr;</a></p>]]></content:encoded>
 </item>
 </channel>
 </rss>
